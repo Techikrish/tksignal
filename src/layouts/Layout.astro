@@ -1,0 +1,198 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { 
+  title = 'tksignal — Your Tech Signal Dashboard',
+  description = 'Free, open-source tech signal aggregator. Trending Hacker News, rising GitHub repos, latest arXiv AI/ML papers, and YC startup launches — updated every 12 hours.'
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <meta name="theme-color" content="#667eea" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <title>{title}</title>
+</head>
+<body>
+  <div class="app">
+    <slot />
+  </div>
+</body>
+</html>
+
+<style is:global>
+  /* ═══════════════════════════════════════════
+     tksignal Design System
+     Modern, Clean, User-Friendly
+     ═══════════════════════════════════════════ */
+
+  :root {
+    /* Background layers - Light, airy, modern */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --bg-tertiary: #f1f3f5;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f8f9fa;
+    --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --bg-gradient-soft: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+
+    /* Borders - Soft and subtle */
+    --border-default: #e1e4e8;
+    --border-muted: #f0f0f0;
+    --border-accent: rgba(102, 126, 234, 0.3);
+
+    /* Text - High contrast for readability */
+    --text-primary: #1a202c;
+    --text-secondary: #4a5568;
+    --text-tertiary: #718096;
+    --text-link: #667eea;
+    --text-link-hover: #5568d3;
+
+    /* Accent colors - Vibrant and modern */
+    --accent-orange: #ff9800;
+    --accent-orange-light: #fff3e0;
+    --accent-green: #10b981;
+    --accent-green-light: #d1fae5;
+    --accent-blue: #667eea;
+    --accent-blue-light: #e0e7ff;
+    --accent-purple: #9333ea;
+    --accent-purple-light: #f3e8ff;
+    --accent-red: #ef4444;
+    --accent-yellow: #fbbf24;
+    --accent-pink: #ec4899;
+
+    /* Semantic colors per section - Bright and inviting */
+    --hn-color: #ff6600;
+    --hn-bg: #fff4e6;
+    --hn-border: #ffd8a8;
+    --github-color: #2dba4e;
+    --github-bg: #e6f7ed;
+    --github-border: #9ae6b4;
+    --arxiv-color: #9333ea;
+    --arxiv-bg: #f3e8ff;
+    --arxiv-border: #d8b4fe;
+    --yc-color: #ff9800;
+    --yc-bg: #fff3e0;
+    --yc-border: #ffcc80;
+
+    /* Typography */
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+    --space-3xl: 4rem;
+
+    /* Radius - Softer, more modern */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+
+    /* Shadows - Softer, more elevated */
+    --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --shadow-xl: 0 12px 32px rgba(0, 0, 0, 0.15);
+    --shadow-glow: 0 0 20px rgba(102, 126, 234, 0.2);
+
+    /* Transitions */
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+    --transition-slow: 400ms ease;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  a {
+    color: var(--text-link);
+    text-decoration: none;
+    transition: all var(--transition-fast);
+  }
+
+  a:hover {
+    color: var(--text-link-hover);
+    transform: translateY(-1px);
+  }
+
+  .app {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: var(--space-lg) var(--space-md);
+    background: var(--bg-primary);
+    min-height: 100vh;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+  }
+
+  @media (min-width: 768px) {
+    .app {
+      padding: var(--space-2xl) var(--space-xl);
+      margin: var(--space-xl) auto;
+      border-radius: var(--radius-lg);
+    }
+  }
+
+  /* Scrollbar - Modern and minimal */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--border-default);
+    border-radius: 5px;
+    border: 2px solid var(--bg-secondary);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--text-tertiary);
+  }
+
+  /* Selection */
+  ::selection {
+    background: var(--accent-blue-light);
+    color: var(--text-primary);
+  }
+</style>

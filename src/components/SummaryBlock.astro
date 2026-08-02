@@ -1,0 +1,62 @@
+---
+interface Props {
+  whyRead?: string;
+  summary?: string;
+}
+
+const { whyRead = '', summary = '' } = Astro.props;
+const hasWhyRead = whyRead.trim().length > 0;
+const hasSummary = summary.trim().length > 0;
+const hasContent = hasWhyRead || hasSummary;
+---
+
+{hasContent && (
+  <div class="summary-block">
+    <span class="summary-label">✨ AI Summary</span>
+    {hasWhyRead && (
+      <p class="summary-whyread"><strong>Why read:</strong> {whyRead}</p>
+    )}
+    {hasSummary && (
+      <p class="summary-text">{summary}</p>
+    )}
+  </div>
+)}
+
+<style>
+  .summary-block {
+    margin-top: var(--space-md);
+    padding: var(--space-md) var(--space-lg);
+    background: linear-gradient(135deg, var(--accent-blue-light) 0%, var(--accent-purple-light) 100%);
+    border: 1px solid var(--border-accent);
+    border-left: 4px solid var(--accent-purple);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-xs);
+  }
+
+  .summary-label {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent-purple);
+    background: white;
+    padding: 2px 10px;
+    border-radius: 12px;
+    border: 1px solid var(--accent-purple-light);
+    margin-bottom: var(--space-sm);
+  }
+
+  .summary-whyread {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: var(--space-sm);
+  }
+
+  .summary-text {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: var(--text-secondary);
+  }
+</style>

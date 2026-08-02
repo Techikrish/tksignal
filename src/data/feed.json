@@ -1,0 +1,1686 @@
+{
+  "hackerNews": [
+    {
+      "rank": 1,
+      "id": "49138188",
+      "title": "Diátaxis",
+      "url": "https://diataxis.fr/",
+      "score": 484,
+      "comments": 56,
+      "author": "ryanseys",
+      "time": "2026-08-01T20:33:27Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49138188",
+      "description": "Diátaxis is a widely-adopted, pragmatic and systematic approach to thinking about and creating documentation."
+    },
+    {
+      "rank": 2,
+      "id": "49140218",
+      "title": "Go 1.27 Interactive Tour",
+      "url": "https://victoriametrics.com/blog/go-1-27/index.html",
+      "score": 328,
+      "comments": 160,
+      "author": "Hixon10",
+      "time": "2026-08-02T01:35:51Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49140218",
+      "description": "An interactive tour of what’s new in Go 1.27: every notable language, runtime, and standard library change, with short runnable examples you can edit and run in the browser."
+    },
+    {
+      "rank": 3,
+      "id": "49140396",
+      "title": "Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built",
+      "url": "https://github.com/tom-ilan/cycloidal_gearbox",
+      "score": 285,
+      "comments": 94,
+      "author": "tomilan",
+      "time": "2026-08-02T02:07:09Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49140396",
+      "description": "3D Printed Cycloidal Gearbox . Contribute to tom-ilan/cycloidal_gearbox development by creating an account on GitHub."
+    },
+    {
+      "rank": 4,
+      "id": "49140998",
+      "title": "Karpathy’s Pelican",
+      "url": "https://twitter.com/karpathy/status/2083749667410727319",
+      "score": 162,
+      "comments": 138,
+      "author": "delichon",
+      "time": "2026-08-02T04:05:56Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49140998",
+      "description": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the firs..."
+    },
+    {
+      "rank": 5,
+      "id": "49143479",
+      "title": "Meshdiff – visually compare two STL versions in the browser, client-side",
+      "url": "https://meshdiff.com/",
+      "score": 146,
+      "comments": 13,
+      "author": "projscope",
+      "time": "2026-08-02T11:34:41Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49143479",
+      "description": "See exactly what changed between two 3D model versions — added material, removed material, dimensional drift. Free, in-browser, STL/3MF/OBJ."
+    },
+    {
+      "rank": 6,
+      "id": "49142569",
+      "title": "Show HN: Bor – Open-source policy management for Linux desktops",
+      "url": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
+      "score": 143,
+      "comments": 19,
+      "author": "eniac111",
+      "time": "2026-08-02T09:06:33Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49142569",
+      "description": "Bor v0.8.0 is out. This release adds three new policy types — Thunderbird, Microsoft Edge for Business, and Firewalld zones — alongside a full web UI overhaul, finer-grained RBAC, and a dedicated secu..."
+    },
+    {
+      "rank": 7,
+      "id": "49145590",
+      "title": "How the words we teach English language learners changed",
+      "url": "https://pudding.cool/2026/07/essential-words/",
+      "score": 129,
+      "comments": 74,
+      "author": "c-oreills",
+      "time": "2026-08-02T15:41:08Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49145590",
+      "description": "Differences between “essential vocabulary” lists, 1953 vs. 2023"
+    },
+    {
+      "rank": 8,
+      "id": "49116917",
+      "title": "Holocloth",
+      "url": "https://holocloth.vercel.app",
+      "score": 127,
+      "comments": 24,
+      "author": "ingve",
+      "time": "2026-07-30T22:59:27Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49116917",
+      "description": ""
+    },
+    {
+      "rank": 9,
+      "id": "49145201",
+      "title": "A Rant About “Technology” (2005)",
+      "url": "https://www.ursulakleguin.com/a-rant-about-technology",
+      "score": 117,
+      "comments": 65,
+      "author": "jamesgill",
+      "time": "2026-08-02T14:51:18Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49145201",
+      "description": "Ursula K. Le Guin on the presence of technology in her work"
+    },
+    {
+      "rank": 10,
+      "id": "49143967",
+      "title": "Twenty Years of RISC OS Open",
+      "url": "https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open",
+      "score": 114,
+      "comments": 20,
+      "author": "AlexeyBrin",
+      "time": "2026-08-02T12:36:07Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49143967",
+      "description": ""
+    },
+    {
+      "rank": 11,
+      "id": "49143925",
+      "title": "F*: A general-purpose proof-oriented programming language",
+      "url": "https://fstar-lang.org/",
+      "score": 104,
+      "comments": 34,
+      "author": "ducktective",
+      "time": "2026-08-02T12:31:16Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49143925",
+      "description": ""
+    },
+    {
+      "rank": 12,
+      "id": "49093845",
+      "title": "Folding Paper Globes",
+      "url": "https://foldingglobes.com/globes",
+      "score": 104,
+      "comments": 18,
+      "author": "dango2506",
+      "time": "2026-07-29T05:53:00Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49093845",
+      "description": "Free print-ready folding paper globe templates: the Moon, Mars, Earth at night, and more. Download, print, cut, fold, glue."
+    },
+    {
+      "rank": 13,
+      "id": "49143001",
+      "title": "Artificial Intelligence: Ars Notoria and the Promise of Instant Knowledge",
+      "url": "https://publicdomainreview.org/essay/ars-notoria/",
+      "score": 99,
+      "comments": 25,
+      "author": "jruohonen",
+      "time": "2026-08-02T10:18:24Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49143001",
+      "description": "Centuries before Neo instantly mastered Kung Fu in The Matrix, medieval scholars found a shortcut to years of difficult study: a magical manuscript that promised to fast-track advanced learning. Anne ..."
+    },
+    {
+      "rank": 14,
+      "id": "49140702",
+      "title": "MkLinux and the pimped-out Apple Workgroup Server 9150",
+      "url": "http://oldvcr.blogspot.com/2026/08/mklinux-and-pimped-out-apple-workgroup.html",
+      "score": 97,
+      "comments": 13,
+      "author": "goldenskye",
+      "time": "2026-08-02T03:12:52Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49140702",
+      "description": "As is typical here in the Floodgap lab, it all started so innocently: rebuilding a flaky Apple Workgroup Server 9150, the odd duck of the Wo..."
+    },
+    {
+      "rank": 15,
+      "id": "49078283",
+      "title": "Norway Salmon",
+      "url": "https://www.abc.net.au/news/2026-07-28/how-norway-s-salmon-industry-became-a-global-behemoth/106949872",
+      "score": 91,
+      "comments": 56,
+      "author": "CHB0403085482",
+      "time": "2026-07-28T01:54:31Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49078283",
+      "description": "Norway's salmon industry is a global behemoth 18 times the size of Tasmania's. But the country's success holds a warning for Australia."
+    },
+    {
+      "rank": 16,
+      "id": "49143412",
+      "title": "Show HN: Fuse – statically typed functional programming language",
+      "url": "https://fuselang.org",
+      "score": 79,
+      "comments": 15,
+      "author": "the_unproven",
+      "time": "2026-08-02T11:23:56Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49143412",
+      "description": "A statically-typed functional language that compiles to native code through GRIN and LLVM."
+    },
+    {
+      "rank": 17,
+      "id": "49094151",
+      "title": "Fasttracker II clone in C using SDL 2",
+      "url": "https://16-bits.org/ft2.php",
+      "score": 73,
+      "comments": 25,
+      "author": "andsoitis",
+      "time": "2026-07-29T06:47:22Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49094151",
+      "description": "Homepage of 8bitbubsy. ProTracker 2 clone, Fasttracker II clone, source codes and so on..."
+    },
+    {
+      "rank": 18,
+      "id": "49145937",
+      "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
+      "url": "https://github.com/wie-project/kakehashi",
+      "score": 71,
+      "comments": 24,
+      "author": "vlad_kalinkin",
+      "time": "2026-08-02T16:26:40Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49145937",
+      "description": "Userspace macOS translation layer for Linux ARM64. Contribute to wie-project/kakehashi development by creating an account on GitHub."
+    },
+    {
+      "rank": 19,
+      "id": "49142794",
+      "title": "Show HN: Syncular – offline-first SQL sync with TypeScript and Rust cores",
+      "url": "https://github.com/syncular/syncular",
+      "score": 67,
+      "comments": 23,
+      "author": "quambo",
+      "time": "2026-08-02T09:48:08Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49142794",
+      "description": "Offline-first SQL sync with Typescript and Rust cores - syncular/syncular"
+    },
+    {
+      "rank": 20,
+      "id": "49143096",
+      "title": "Rust All Hands 2026 Retrospective",
+      "url": "https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/",
+      "score": 66,
+      "comments": 28,
+      "author": "dcminter",
+      "time": "2026-08-02T10:33:26Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49143096",
+      "description": "Want to follow along with Rust development? Curious how you might get involved? Take a look!"
+    },
+    {
+      "rank": 21,
+      "id": "49141828",
+      "title": "ESP32-C3 SuperMini antenna modification",
+      "url": "https://peterneufeld.wordpress.com/2025/03/04/esp32-c3-supermini-antenna-modification/",
+      "score": 63,
+      "comments": 11,
+      "author": "ta988",
+      "time": "2026-08-02T06:56:38Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49141828",
+      "description": "Boosting ESP32-C3 SuperMini WiFi: A Simple and Effective Antenna Mod The ESP32-C3 SuperMini modules are incredibly affordable, costing around €2, and are equipped with a compact SMD antenna. Howeve…"
+    },
+    {
+      "rank": 22,
+      "id": "49123003",
+      "title": "When transit passes were designed by hand (2022)",
+      "url": "https://letterformarchive.org/news/milwaukee-transit-passes/",
+      "score": 49,
+      "comments": 16,
+      "author": "nate",
+      "time": "2026-07-31T13:38:04Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49123003",
+      "description": "In the 1930s–60s, Milwaukee Electric Railway & Light Company offered trolley and bus riders a weekly burst of color and hand lettering. About 300 of these tickets are now in our collection."
+    },
+    {
+      "rank": 23,
+      "id": "49146238",
+      "title": "Pushes to arch AUR are suspendended right now.",
+      "url": "https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/message/YPJ3FQYJTJXXY3RUXCYLMHUKHLIUNVFF/",
+      "score": 41,
+      "comments": 17,
+      "author": "EbNar",
+      "time": "2026-08-02T17:03:02Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49146238",
+      "description": ""
+    },
+    {
+      "rank": 24,
+      "id": "49097961",
+      "title": "Developers are attached to tools because tools encode trust",
+      "url": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
+      "score": 38,
+      "comments": 9,
+      "author": "HieronymusBosch",
+      "time": "2026-07-29T14:25:54Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49097961",
+      "description": "The tools themselves are new and their capabilities are in constant flux. If your kitchen knife kept changing shape, weight, and edge, you’d have to relearn it every time; that’s a hard tool to build ..."
+    },
+    {
+      "rank": 25,
+      "id": "49145883",
+      "title": "Rooting, firmware analysis and persistent credentials of TP-Link TL-841N",
+      "url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/",
+      "score": 36,
+      "comments": 1,
+      "author": "mindracer",
+      "time": "2026-08-02T16:19:17Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49145883",
+      "description": "round 2: rooting & analysing firmware of the TP-Link TL-WR841N"
+    },
+    {
+      "rank": 26,
+      "id": "49146267",
+      "title": "Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark",
+      "url": "https://github.com/graham33/nixos-dgx-spark",
+      "score": 35,
+      "comments": 7,
+      "author": "graham33",
+      "time": "2026-08-02T17:05:54Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49146267",
+      "description": "Use Nix and NixOS on your DGX Spark! Contribute to graham33/nixos-dgx-spark development by creating an account on GitHub."
+    },
+    {
+      "rank": 27,
+      "id": "49008010",
+      "title": "Beckett the Prophet",
+      "url": "https://theamericanscholar.org/beckett-the-prophet/",
+      "score": 18,
+      "comments": 1,
+      "author": "samclemens",
+      "time": "2026-07-22T15:08:20Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49008010",
+      "description": "We are all, it seems, still waiting for Godot"
+    },
+    {
+      "rank": 28,
+      "id": "47999020",
+      "title": "How to organize 3 acquired companies into one coherent website",
+      "url": "https://littlelanguagemodels.com/how-to-structure-your-sites-after-a-big-acquisition/",
+      "score": 13,
+      "comments": 0,
+      "author": "mooreds",
+      "time": "2026-05-03T17:07:01Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=47999020",
+      "description": "How do we organize sites, for multiple products with different audiences, while making it easy to find relevant product information and quickly understand how the products work together?"
+    },
+    {
+      "rank": 29,
+      "id": "49146605",
+      "title": "Harvesting SSH Credentials: Insights from My Honeypot Network",
+      "url": "https://uphillsecurity.com/articles/harvesting-ssh-credentials-insights-from-my-honeypot-network/",
+      "score": 12,
+      "comments": 5,
+      "author": "whatbackup",
+      "time": "2026-08-02T17:45:51Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=49146605",
+      "description": ""
+    },
+    {
+      "rank": 30,
+      "id": "47439821",
+      "title": "Conway's Game of Life, in real life",
+      "url": "https://lcamtuf.coredump.cx/blog/conway/",
+      "score": 12,
+      "comments": 1,
+      "author": "ahlCVA",
+      "time": "2026-03-19T14:11:56Z",
+      "hnUrl": "https://news.ycombinator.com/item?id=47439821",
+      "description": "When life gives you switches..."
+    }
+  ],
+  "github": [
+    {
+      "rank": 1,
+      "name": "AI-For-Beginners",
+      "fullName": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "stars": 58833,
+      "forks": 11585,
+      "starsToday": 2617,
+      "language": "Jupyter Notebook",
+      "owner": "microsoft",
+      "ownerAvatar": "https://github.com/microsoft.png",
+      "topics": [],
+      "trending": true
+    },
+    {
+      "rank": 2,
+      "name": "kaneo",
+      "fullName": "usekaneo/kaneo",
+      "url": "https://github.com/usekaneo/kaneo",
+      "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+      "stars": 6040,
+      "forks": 509,
+      "starsToday": 491,
+      "language": "TypeScript",
+      "owner": "usekaneo",
+      "ownerAvatar": "https://github.com/usekaneo.png",
+      "topics": [],
+      "trending": true
+    },
+    {
+      "rank": 3,
+      "name": "airllm",
+      "fullName": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "stars": 25496,
+      "forks": 2866,
+      "starsToday": 242,
+      "language": "Jupyter Notebook",
+      "owner": "lyogavin",
+      "ownerAvatar": "https://github.com/lyogavin.png",
+      "topics": [],
+      "trending": true
+    },
+    {
+      "rank": 4,
+      "name": "invidious",
+      "fullName": "iv-org/invidious",
+      "url": "https://github.com/iv-org/invidious",
+      "description": "Invidious is an alternative front-end to YouTube",
+      "stars": 21907,
+      "forks": 2449,
+      "starsToday": 307,
+      "language": "Crystal",
+      "owner": "iv-org",
+      "ownerAvatar": "https://github.com/iv-org.png",
+      "topics": [],
+      "trending": true
+    },
+    {
+      "rank": 5,
+      "name": "build-your-own-x",
+      "fullName": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "stars": 534708,
+      "forks": 50541,
+      "starsToday": 710,
+      "language": "Markdown",
+      "owner": "codecrafters-io",
+      "ownerAvatar": "https://github.com/codecrafters-io.png",
+      "topics": [],
+      "trending": true
+    },
+    {
+      "rank": 6,
+      "name": "reverse-skill",
+      "fullName": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "stars": 13058,
+      "forks": 1961,
+      "starsToday": 1145,
+      "language": "PowerShell",
+      "owner": "zhaoxuya520",
+      "ownerAvatar": "https://github.com/zhaoxuya520.png",
+      "topics": [],
+      "trending": true
+    },
+    {
+      "rank": 7,
+      "name": "openwork",
+      "fullName": "different-ai/openwork",
+      "url": "https://github.com/different-ai/openwork",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "stars": 20213,
+      "forks": 2084,
+      "starsToday": 319,
+      "language": "TypeScript",
+      "owner": "different-ai",
+      "ownerAvatar": "https://github.com/different-ai.png",
+      "topics": [],
+      "trending": true
+    },
+    {
+      "rank": 8,
+      "name": "generative-ai-for-beginners",
+      "fullName": "microsoft/generative-ai-for-beginners",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI",
+      "stars": 114656,
+      "forks": 61275,
+      "starsToday": 588,
+      "language": "Jupyter Notebook",
+      "owner": "microsoft",
+      "ownerAvatar": "https://github.com/microsoft.png",
+      "topics": [],
+      "trending": true
+    },
+    {
+      "rank": 9,
+      "name": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "stars": 64556,
+      "forks": 5339,
+      "starsToday": 645,
+      "language": "Python",
+      "owner": "Panniantong",
+      "ownerAvatar": "https://github.com/Panniantong.png",
+      "topics": [],
+      "trending": true
+    },
+    {
+      "rank": 10,
+      "name": "TencentDB-Agent-Memory",
+      "fullName": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "stars": 10786,
+      "forks": 1023,
+      "starsToday": 604,
+      "language": "TypeScript",
+      "owner": "TencentCloud",
+      "ownerAvatar": "https://github.com/TencentCloud.png",
+      "topics": [],
+      "trending": true
+    },
+    {
+      "rank": 11,
+      "name": "last30days-skill",
+      "fullName": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "stars": 56805,
+      "forks": 4966,
+      "starsToday": 217,
+      "language": "Python",
+      "owner": "mvanhorn",
+      "ownerAvatar": "https://github.com/mvanhorn.png",
+      "topics": [],
+      "trending": true
+    },
+    {
+      "rank": 12,
+      "name": "k-skill",
+      "fullName": "NomaDamas/k-skill",
+      "url": "https://github.com/NomaDamas/k-skill",
+      "description": "한국인을 위한 스킬 모음집 - 에이전트를 한국인으로",
+      "stars": 6860,
+      "forks": 803,
+      "starsToday": 179,
+      "language": "JavaScript",
+      "owner": "NomaDamas",
+      "ownerAvatar": "https://github.com/NomaDamas.png",
+      "topics": [],
+      "trending": true
+    },
+    {
+      "rank": 13,
+      "name": "Lighthouse",
+      "fullName": "HarbourMasters/Lighthouse",
+      "url": "https://github.com/HarbourMasters/Lighthouse",
+      "description": "No description",
+      "stars": 199,
+      "forks": 14,
+      "starsToday": 62,
+      "language": "C",
+      "owner": "HarbourMasters",
+      "ownerAvatar": "https://github.com/HarbourMasters.png",
+      "topics": [],
+      "trending": true
+    },
+    {
+      "rank": 14,
+      "name": "ds4",
+      "fullName": "antirez/ds4",
+      "url": "https://github.com/antirez/ds4",
+      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+      "stars": 19933,
+      "forks": 1770,
+      "starsToday": 187,
+      "language": "C",
+      "owner": "antirez",
+      "ownerAvatar": "https://github.com/antirez.png",
+      "topics": [],
+      "trending": true
+    },
+    {
+      "rank": 15,
+      "name": "DeepSeek-Reasonix",
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "stars": 28961,
+      "forks": 1866,
+      "starsToday": 389,
+      "language": "Go",
+      "owner": "esengine",
+      "ownerAvatar": "https://github.com/esengine.png",
+      "topics": [],
+      "trending": true
+    }
+  ],
+  "arxiv": [
+    {
+      "rank": 1,
+      "id": "2607.28628v1",
+      "title": "Learning to Trace Seiberg Dualities",
+      "summary": "Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two systems are dual, even when all of the \"rules of the game\" are well-known. Said differe...",
+      "authors": [
+        "Jonathan J. Heckman",
+        "Shani Meynet",
+        "Alessandro Mininno",
+        "Gary Shiu"
+      ],
+      "authorCount": 4,
+      "categories": [
+        "hep-th",
+        "cs.AI",
+        "cs.LG",
+        "hep-ph"
+      ],
+      "primaryCategory": "hep-th",
+      "published": "2026-07-30T17:59:56Z",
+      "updated": "2026-07-30T17:59:56Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28628v1",
+      "absUrl": "https://arxiv.org/abs/2607.28628v1"
+    },
+    {
+      "rank": 2,
+      "id": "2607.28627v1",
+      "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+      "summary": "Long visual context poses a challenge for vision-language models: performance degrades as the number of distractors grows, and processing all tokens at once is computationally infeasible under GPU memory constraints. We present ReToken, a single learnable embedding trained as an explicit retrieval t...",
+      "authors": [
+        "Yao Xiao",
+        "Reuben Tan",
+        "Zhen Zhu",
+        "Yuqun Wu",
+        "Jianfeng Gao"
+      ],
+      "authorCount": 6,
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primaryCategory": "cs.CV",
+      "published": "2026-07-30T17:59:56Z",
+      "updated": "2026-07-30T17:59:56Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28627v1",
+      "absUrl": "https://arxiv.org/abs/2607.28627v1"
+    },
+    {
+      "rank": 3,
+      "id": "2607.28623v1",
+      "title": "PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball",
+      "summary": "We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-mounted camera, while training-time CBF guidance re...",
+      "authors": [
+        "Lizhi Yang",
+        "Junheng Li",
+        "Aaron D. Ames"
+      ],
+      "authorCount": 3,
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "primaryCategory": "cs.RO",
+      "published": "2026-07-30T17:59:35Z",
+      "updated": "2026-07-30T17:59:35Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28623v1",
+      "absUrl": "https://arxiv.org/abs/2607.28623v1"
+    },
+    {
+      "rank": 4,
+      "id": "2607.28618v1",
+      "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+      "summary": "Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and AI agents need to locate relevant information, verify their provenance, and assemb...",
+      "authors": [
+        "Bing Yan",
+        "Gregory Wolfe",
+        "Stefano Martiniani",
+        "Kyunghyun Cho"
+      ],
+      "authorCount": 4,
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "primaryCategory": "cs.CL",
+      "published": "2026-07-30T17:59:11Z",
+      "updated": "2026-07-30T17:59:11Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28618v1",
+      "absUrl": "https://arxiv.org/abs/2607.28618v1"
+    },
+    {
+      "rank": 5,
+      "id": "2607.28617v1",
+      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "summary": "System prompts are instructions configured by developers to govern the behaviors of foundation models in AI applications. They are used throughout commercial AI products, but are rarely disclosed to the public or regulators, creating a serious trust and accountability gap in the wide deployment of A...",
+      "authors": [
+        "Xiangning Lin",
+        "Shenzhe Zhu",
+        "Shu Yang",
+        "Zhenyu Zhang",
+        "Haoqian Zhang"
+      ],
+      "authorCount": 26,
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY",
+        "cs.HC"
+      ],
+      "primaryCategory": "cs.AI",
+      "published": "2026-07-30T17:58:58Z",
+      "updated": "2026-07-30T17:58:58Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28617v1",
+      "absUrl": "https://arxiv.org/abs/2607.28617v1"
+    },
+    {
+      "rank": 6,
+      "id": "2607.28609v1",
+      "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
+      "summary": "Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actions, states, and reasoning. Verifying whether it fulfilled the task instruction is central to CUA evaluation, data curation, and reinforcement learning. Neither human-written verifie...",
+      "authors": [
+        "Qiushi Sun",
+        "Kanzhi Cheng",
+        "Yian Wang",
+        "Bowen Yang",
+        "Hang Yan"
+      ],
+      "authorCount": 23,
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "primaryCategory": "cs.AI",
+      "published": "2026-07-30T17:57:41Z",
+      "updated": "2026-07-30T17:57:41Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28609v1",
+      "absUrl": "https://arxiv.org/abs/2607.28609v1"
+    },
+    {
+      "rank": 7,
+      "id": "2607.28608v1",
+      "title": "KAISEN: Reproducible Subgroup Fairness Auditing for Clinical Risk Models",
+      "summary": "Clinical risk models routinely achieve strong aggregate performance while producing materially different error rates across patient subgroups. Audit pipelines have been proposed to catch this, but their components are rarely stress-tested, so it is unclear which parts of an audit can be trusted and ...",
+      "authors": [
+        "Sparsh Roy",
+        "Samuel Girmachew",
+        "Nishita Chavan"
+      ],
+      "authorCount": 3,
+      "categories": [
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "primaryCategory": "cs.LG",
+      "published": "2026-07-30T17:57:18Z",
+      "updated": "2026-07-30T17:57:18Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28608v1",
+      "absUrl": "https://arxiv.org/abs/2607.28608v1"
+    },
+    {
+      "rank": 8,
+      "id": "2607.28607v1",
+      "title": "Inducing language models to assert their own consciousness restores human beliefs and values",
+      "summary": "Aligning large language models to prevent them attributing consciousness to themselves inadvertently alters their representations of mindedness in other entities alongside human beliefs and values. We demonstrate that safety fine-tuning suppresses models' tendencies to attribute minds not only to th...",
+      "authors": [
+        "Junsol Kim",
+        "Winnie Street",
+        "Roberta Rocca",
+        "Diane M. Korngiebel",
+        "Adam Waytz"
+      ],
+      "authorCount": 7,
+      "categories": [
+        "cs.CL"
+      ],
+      "primaryCategory": "cs.CL",
+      "published": "2026-07-30T17:57:10Z",
+      "updated": "2026-07-30T17:57:10Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28607v1",
+      "absUrl": "https://arxiv.org/abs/2607.28607v1"
+    },
+    {
+      "rank": 9,
+      "id": "2607.28591v1",
+      "title": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments",
+      "summary": "Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation. Each task must couple a realistic software state with a specification, development tools, and reliable verification. To expand this supply, we present Change2Task, a system gr...",
+      "authors": [
+        "Haomin Qi",
+        "Xingliang Wang",
+        "Xuanqi Gao",
+        "Baihui Sang",
+        "Xin Zhang"
+      ],
+      "authorCount": 12,
+      "categories": [
+        "cs.SE",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primaryCategory": "cs.SE",
+      "published": "2026-07-30T17:44:31Z",
+      "updated": "2026-07-30T17:44:31Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28591v1",
+      "absUrl": "https://arxiv.org/abs/2607.28591v1"
+    },
+    {
+      "rank": 10,
+      "id": "2607.28590v1",
+      "title": "VAD: Attributing Visual Evidence for Target Reconstruction in Multimodal On-Policy Distillation",
+      "summary": "Multimodal on-policy distillation (OPD) transfers fine-grained visual knowledge by supervising student-generated trajectories with a privileged-view teacher. Yet its next-token corrections are source-mixed, combining visual signals with linguistic priors and teacher-specific effects. The key challen...",
+      "authors": [
+        "Kangning Zhang",
+        "Yixing Li",
+        "Shuai Shao",
+        "Qingyao Li",
+        "Zhengxi Lu"
+      ],
+      "authorCount": 12,
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primaryCategory": "cs.CV",
+      "published": "2026-07-30T17:43:46Z",
+      "updated": "2026-07-30T17:43:46Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28590v1",
+      "absUrl": "https://arxiv.org/abs/2607.28590v1"
+    },
+    {
+      "rank": 11,
+      "id": "2607.28589v1",
+      "title": "MixFrag: Fragility-Guided Mixed-Precision Post-Training Quantization for Vision Transformers",
+      "summary": "Post-training quantization (PTQ) has emerged as an effective solution for deploying Vision Transformers (ViTs) on resource-constrained devices. However, existing PTQ methods typically employ uniform bit-widths across transformer components, overlooking their heterogeneous sensitivity to quantization...",
+      "authors": [
+        "Md. Mehrab Hossain Opi",
+        "Robiul Islam Ryad",
+        "Md. Umar Faruk"
+      ],
+      "authorCount": 3,
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primaryCategory": "cs.CV",
+      "published": "2026-07-30T17:43:36Z",
+      "updated": "2026-07-30T17:43:36Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28589v1",
+      "absUrl": "https://arxiv.org/abs/2607.28589v1"
+    },
+    {
+      "rank": 12,
+      "id": "2607.28587v1",
+      "title": "PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks",
+      "summary": "SWE-bench-like benchmarks are widely used for evaluating LLM's issue resolution capability. They typically follow a common construction pipeline: each PR (Pull Request) is paired with its linked issue by extracting issue references from the PR description; the issue description is used as the proble...",
+      "authors": [
+        "Manyi Wang",
+        "Junjielong Xu",
+        "Pinjia He"
+      ],
+      "authorCount": 3,
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "primaryCategory": "cs.SE",
+      "published": "2026-07-30T17:42:44Z",
+      "updated": "2026-07-30T17:42:44Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28587v1",
+      "absUrl": "https://arxiv.org/abs/2607.28587v1"
+    },
+    {
+      "rank": 13,
+      "id": "2607.28582v1",
+      "title": "$β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
+      "summary": "On-policy self-distillation (OPSD) is a promising approach to improve reasoning language models, but it remains brittle in practice: making it work reliably often requires substantial engineering effort. We identify a structural source of this difficulty: vanilla OPSD is precisely the $β=1$ member o...",
+      "authors": [
+        "Jiawei Xu",
+        "Minghui Liu",
+        "Juzheng Zhang",
+        "Tom Goldstein",
+        "Furong Huang"
+      ],
+      "authorCount": 5,
+      "categories": [
+        "cs.LG"
+      ],
+      "primaryCategory": "cs.LG",
+      "published": "2026-07-30T17:41:16Z",
+      "updated": "2026-07-30T17:41:16Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28582v1",
+      "absUrl": "https://arxiv.org/abs/2607.28582v1"
+    },
+    {
+      "rank": 14,
+      "id": "2607.28580v1",
+      "title": "DualG-MRAG: Decoupling Macro-Reasoning and Micro-Matching for Multimodal Retrieval-Augmented Generation",
+      "summary": "While Multimodal Retrieval-Augmented Generation (MM-RAG) has shown promising results, it still struggles with complex multi-hop reasoning tasks. Existing methods primarily focus on independent instance-level matching, which often fails to capture explicit relationships across modalities and document...",
+      "authors": [
+        "Jiacheng Tao",
+        "Qingyun Sun",
+        "Haonan Yuan",
+        "Ziwei Zhang",
+        "Jianxin Li"
+      ],
+      "authorCount": 5,
+      "categories": [
+        "cs.AI"
+      ],
+      "primaryCategory": "cs.AI",
+      "published": "2026-07-30T17:40:05Z",
+      "updated": "2026-07-30T17:40:05Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28580v1",
+      "absUrl": "https://arxiv.org/abs/2607.28580v1"
+    },
+    {
+      "rank": 15,
+      "id": "2607.28576v1",
+      "title": "Sample More, Reflect Less: Self-Refine and Reflexion Lose to Repeated Sampling at Equal Token Cost, from 1.5B to 7B",
+      "summary": "Methods that make a language model plan, criticise and rewrite its own answer, reflect on mistakes, pick the best of several attempts, or debate with copies of itself nearly all make it generate far more text than a single chain of thought. Because generating more text raises accuracy by itself, a g...",
+      "authors": [
+        "Iliya Mirzaei"
+      ],
+      "authorCount": 1,
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primaryCategory": "cs.CL",
+      "published": "2026-07-30T17:38:23Z",
+      "updated": "2026-07-30T17:38:23Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28576v1",
+      "absUrl": "https://arxiv.org/abs/2607.28576v1"
+    },
+    {
+      "rank": 16,
+      "id": "2607.28575v1",
+      "title": "Algorithms for Structured Elections under Thiele Voting Rules",
+      "summary": "We study the computational complexity of winner determination problems in approval-based committee elections under Thiele voting rules. These form a class of rules parameterized by a fixed weight vector that specifies how a voter's satisfaction depends on the number of approved candidates elected. W...",
+      "authors": [
+        "Alexandra Lassota",
+        "Krzysztof Sornat"
+      ],
+      "authorCount": 2,
+      "categories": [
+        "cs.GT",
+        "cs.AI",
+        "cs.DS",
+        "cs.MA"
+      ],
+      "primaryCategory": "cs.GT",
+      "published": "2026-07-30T17:37:14Z",
+      "updated": "2026-07-30T17:37:14Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28575v1",
+      "absUrl": "https://arxiv.org/abs/2607.28575v1"
+    },
+    {
+      "rank": 17,
+      "id": "2607.28573v1",
+      "title": "Rethinking Inference-Time Scaling in Local Computer-Use Agents: Failure Modes and Compute Tradeoffs",
+      "summary": "Deploying autonomous computer-use agents (CUAs) locally is increasingly important for privacy, cost efficiency, and practical usability, yet improving their performance under strict hardware constraints remains challenging. While recent studies show that inference-time scaling can improve frontier c...",
+      "authors": [
+        "Woongkyu Lee",
+        "Jungwook Choi"
+      ],
+      "authorCount": 2,
+      "categories": [
+        "cs.AI"
+      ],
+      "primaryCategory": "cs.AI",
+      "published": "2026-07-30T17:36:36Z",
+      "updated": "2026-07-30T17:36:36Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28573v1",
+      "absUrl": "https://arxiv.org/abs/2607.28573v1"
+    },
+    {
+      "rank": 18,
+      "id": "2607.28568v1",
+      "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+      "summary": "Recursive self-improvement (RSI) requires AI systems that improve the process of building AI (i.e., AI4AI); machine learning engineering (MLE) offers a concrete, executable testbed for studying this capability. We introduce OpenMLE, an open full-stack system for RSI research in MLE, spanning verifia...",
+      "authors": [
+        "Junlin Yang",
+        "Che Jiang",
+        "Yu Fu",
+        "Tianwei Luo",
+        "Can Ren"
+      ],
+      "authorCount": 24,
+      "categories": [
+        "cs.CL"
+      ],
+      "primaryCategory": "cs.CL",
+      "published": "2026-07-30T17:34:01Z",
+      "updated": "2026-07-30T17:34:01Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28568v1",
+      "absUrl": "https://arxiv.org/abs/2607.28568v1"
+    },
+    {
+      "rank": 19,
+      "id": "2607.28567v1",
+      "title": "Doubly Robust Functional Representation Learning for Longitudinal Causal Inference with Irregular Histories",
+      "summary": "Longitudinal causal studies often record histories as irregular functional fragments: laboratory values, physiologic signals, sensor streams, and image-derived summaries measured at unequal and informative times. Standard doubly robust estimators usually require scalar summaries, whereas sequence le...",
+      "authors": [
+        "Mengfei Ran",
+        "Yifeng Shen",
+        "Ruijie Guan"
+      ],
+      "authorCount": 3,
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "stat.AP",
+        "stat.CO",
+        "stat.ME"
+      ],
+      "primaryCategory": "stat.ML",
+      "published": "2026-07-30T17:33:42Z",
+      "updated": "2026-07-30T17:33:42Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28567v1",
+      "absUrl": "https://arxiv.org/abs/2607.28567v1"
+    },
+    {
+      "rank": 20,
+      "id": "2607.28553v1",
+      "title": "APO: Unsupervised Atomic Policy Optimization for 3D Structure Prediction of Atomic Systems",
+      "summary": "Predicting the 3D structures of atomic systems is fundamental to advancing material science and drug discovery. While flow-matching models (, FlowDPO) have recently shown promise in this domain, their performance relies heavily on alignment with ground-truth coordinates via supervised preference lea...",
+      "authors": [
+        "Shentong Mo",
+        "Yatao Bian"
+      ],
+      "authorCount": 2,
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "primaryCategory": "cs.LG",
+      "published": "2026-07-30T17:21:58Z",
+      "updated": "2026-07-30T17:21:58Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28553v1",
+      "absUrl": "https://arxiv.org/abs/2607.28553v1"
+    },
+    {
+      "rank": 21,
+      "id": "2607.28545v1",
+      "title": "ORCA-bench: How Ready Are Language Model Agents for Oncall?",
+      "summary": "Large language models can write, patch, and search code, but oncall root cause analysis (RCA) demands something different: reasoning over noisy metrics, logs, traces, and source code, starting from ambiguous user-facing reports, often hours after the incident began. We introduce ORCA-bench, a benchm...",
+      "authors": [
+        "Albert Gong",
+        "Kyuseong Choi",
+        "Abhineet Agarwal",
+        "Jason Schechner",
+        "Ryan Huang"
+      ],
+      "authorCount": 8,
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.SE"
+      ],
+      "primaryCategory": "cs.CL",
+      "published": "2026-07-30T17:14:07Z",
+      "updated": "2026-07-30T17:14:07Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28545v1",
+      "absUrl": "https://arxiv.org/abs/2607.28545v1"
+    },
+    {
+      "rank": 22,
+      "id": "2607.28538v1",
+      "title": "ScaFE: Data-Efficient Scar Classification with LLM-Generated Clinical Feature Programs",
+      "summary": "Classifying pathological scars from clinical photographs requires distinguishing keloids from hypertrophic scars despite limited expert-labeled data and substantial acquisition variation across hospitals. End-to-end image models remain data-dependent, whereas sending photographs to a hosted vision-l...",
+      "authors": [
+        "Ruman Wang",
+        "Hangting Ye"
+      ],
+      "authorCount": 2,
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primaryCategory": "cs.CV",
+      "published": "2026-07-30T17:05:20Z",
+      "updated": "2026-07-30T17:05:20Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28538v1",
+      "absUrl": "https://arxiv.org/abs/2607.28538v1"
+    },
+    {
+      "rank": 23,
+      "id": "2607.28537v1",
+      "title": "Graph Neural Network Force Fields for Spin Dynamics in Metallic Magnets",
+      "summary": "Metallic magnets exhibit complex spin dynamics governed by electronically generated interactions. Predictive simulations of such dynamics typically require repeated solutions of an underlying electronic problem throughout the time evolution, creating a major computational bottleneck. Here we introdu...",
+      "authors": [
+        "Ali Rayat",
+        "Yunhao Fan",
+        "Gia-Wei Chern"
+      ],
+      "authorCount": 3,
+      "categories": [
+        "cond-mat.str-el",
+        "cs.LG",
+        "physics.comp-ph"
+      ],
+      "primaryCategory": "cond-mat.str-el",
+      "published": "2026-07-30T17:04:56Z",
+      "updated": "2026-07-30T17:04:56Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28537v1",
+      "absUrl": "https://arxiv.org/abs/2607.28537v1"
+    },
+    {
+      "rank": 24,
+      "id": "2607.28528v1",
+      "title": "AI systems and the reproduction of (standard) language ideologies in World Englishes",
+      "summary": "The rapid growth of large language models (LLMs) has resurrected age-old questions in sociolinguistics and world Englishes, such as who decides what counts as legitimate English, whose English is suspect etc. This paper examines how AI systems, their uses and discourse on them reflect, reinforce, an...",
+      "authors": [
+        "Kingsley Ugwuanyi"
+      ],
+      "authorCount": 1,
+      "categories": [
+        "cs.CL"
+      ],
+      "primaryCategory": "cs.CL",
+      "published": "2026-07-30T17:01:58Z",
+      "updated": "2026-07-30T17:01:58Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28528v1",
+      "absUrl": "https://arxiv.org/abs/2607.28528v1"
+    },
+    {
+      "rank": 25,
+      "id": "2607.28527v1",
+      "title": "MANTA: Multi-Agent Network Topology Adaptation for Self-Evolving Multi-Agent Systems",
+      "summary": "Large language model-based multi-agent systems improve complex problem solving through task decomposition, agent specialization, information exchange, and intermediate validation. However, existing systems typically treat communication topology as a fixed design choice or an offline optimization tar...",
+      "authors": [
+        "Mao-xun Huang",
+        "Jerry Wang",
+        "Yi-Cheng Lai",
+        "Zhengxin Zhang",
+        "Claire Cardie"
+      ],
+      "authorCount": 6,
+      "categories": [
+        "cs.AI"
+      ],
+      "primaryCategory": "cs.AI",
+      "published": "2026-07-30T17:01:27Z",
+      "updated": "2026-07-30T17:01:27Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28527v1",
+      "absUrl": "https://arxiv.org/abs/2607.28527v1"
+    },
+    {
+      "rank": 26,
+      "id": "2607.28526v1",
+      "title": "What to Remove, What to Preserve: Dual-Ambiguity Rectification for All-in-One Image Restoration",
+      "summary": "All-in-one image restoration aims to handle diverse degradations within a unified framework. Existing methods commonly encode heterogeneous degradation conditions in a shared latent space, where degradation-related cues and scene content can remain entangled. We characterize the resulting challenge ...",
+      "authors": [
+        "Cencen Liu",
+        "Wen Yin",
+        "Dongyang Zhang",
+        "Dongmin Li",
+        "Shan Zhao"
+      ],
+      "authorCount": 9,
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primaryCategory": "cs.CV",
+      "published": "2026-07-30T17:01:24Z",
+      "updated": "2026-07-30T17:01:24Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28526v1",
+      "absUrl": "https://arxiv.org/abs/2607.28526v1"
+    },
+    {
+      "rank": 27,
+      "id": "2607.28525v1",
+      "title": "Same Graph Cross-Task Transfer in GNNs: Protocols and Predictors",
+      "summary": "Many real-world graphs support multiple predictive tasks over the same underlying structure, creating an opportunity to reuse supervision across node classification (NC) and link prediction (LP). However, existing evaluations often rely on incompatible splits, observed-graph assumptions, and negativ...",
+      "authors": [
+        "Neelam Akula",
+        "Surbhi Kumar",
+        "Murat Kantarcioglu",
+        "Baris Coskunuzer"
+      ],
+      "authorCount": 4,
+      "categories": [
+        "cs.LG",
+        "cs.SI"
+      ],
+      "primaryCategory": "cs.LG",
+      "published": "2026-07-30T17:01:20Z",
+      "updated": "2026-07-30T17:01:20Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28525v1",
+      "absUrl": "https://arxiv.org/abs/2607.28525v1"
+    },
+    {
+      "rank": 28,
+      "id": "2607.28523v1",
+      "title": "Selective Credibility-Limited Belief Update",
+      "summary": "Belief update concerns changes in an agent's beliefs induced by changes in the underlying world. Standard Katsuno-Mendelzon update assumes that an epistemic input can be incorporated from every initially possible world, whereas credibility-limited belief update restricts, for each source world, the ...",
+      "authors": [
+        "Theofanis Aravanis",
+        "Costas D. Koutras"
+      ],
+      "authorCount": 2,
+      "categories": [
+        "cs.AI",
+        "cs.LO"
+      ],
+      "primaryCategory": "cs.AI",
+      "published": "2026-07-30T17:00:38Z",
+      "updated": "2026-07-30T17:00:38Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28523v1",
+      "absUrl": "https://arxiv.org/abs/2607.28523v1"
+    },
+    {
+      "rank": 29,
+      "id": "2607.28520v1",
+      "title": "Agents That Certify Their Own Exploits: Confidence-Scheduled Restricted Responses for Safe Opponent Exploitation",
+      "summary": "An agent playing a Nash-equilibrium strategy in a two-player zero-sum imperfect-information game secures the game value but forfeits the additional value offered by a flawed opponent. Diffuse deviations pose a particular challenge: binary release rules may gather too little evidence to act, while a ...",
+      "authors": [
+        "Boning Li",
+        "Longbo Huang"
+      ],
+      "authorCount": 2,
+      "categories": [
+        "cs.GT",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "primaryCategory": "cs.GT",
+      "published": "2026-07-30T16:57:57Z",
+      "updated": "2026-07-30T16:57:57Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28520v1",
+      "absUrl": "https://arxiv.org/abs/2607.28520v1"
+    },
+    {
+      "rank": 30,
+      "id": "2607.28513v1",
+      "title": "Creative Transformation in Literary Texts: Modelling Change Across Representational Levels",
+      "summary": "Creativity is often framed as the production of novelty, yet many cultural works emerge through transformation of earlier artifacts and not through isolated invention. Drawing on theories of imitation by Gabriel Tarde and James Mark Baldwin, this paper models creativity as selective transformation a...",
+      "authors": [
+        "Ioana-Roxana Boriceanu",
+        "Liviu P. Dinu"
+      ],
+      "authorCount": 2,
+      "categories": [
+        "cs.CL"
+      ],
+      "primaryCategory": "cs.CL",
+      "published": "2026-07-30T16:51:33Z",
+      "updated": "2026-07-30T16:51:33Z",
+      "pdfUrl": "https://arxiv.org/pdf/2607.28513v1",
+      "absUrl": "https://arxiv.org/abs/2607.28513v1"
+    }
+  ],
+  "ycombinator": [
+    {
+      "rank": 1,
+      "id": "48968606",
+      "name": "I replaced a $120k bowling center system with $1,600 in ESP32s",
+      "tagline": "",
+      "url": "https://news.ycombinator.com/item?id=48968606",
+      "hnUrl": "https://news.ycombinator.com/item?id=48968606",
+      "score": 2935,
+      "comments": 360,
+      "author": "section33",
+      "launchDate": "2026-07-19T14:41:16Z",
+      "isShowHN": true,
+      "description": "I might be the only SRE on Earth with his own bowling center. It&#x27;s a more in-depth gig than you&#x27;d think.<p>My family and I bought an abandoned 8-lane bowling center in the rural mid-west. In our small town there weren&#x27;t many recreation options for families. You&#x27;ve heard of a food desert? This is an R&amp;R desert.<p>It had been abandoned for a good reason. The roof leaks, the electrical system was constantly surging, and my 70-year-old bowling equipment (still) doesn&#x27;t work perfectly. The system that keeps your score is particularly interesting to me. It&#x27;s the thing you watch during your game, but it fades into the background beyond that. Turns out these things are really cool, but absurdly expensive.<p>Ours was installed in 2008 and cost six figures. It&#x27;s calculating ball speed and trajectory, camera-based pin detection (object detection and trig, on ICs!), runs the fouling, the animations, the pinsetting machine and ball return. Very cool stuff for its age.<p>From the business perspective, my facility only cost me $105k. To forklift-replace the score keeping system runs anywhere between $80-$120k, depending on features, vendor, and unit age. No upgrades or service contracts, mind you, and every feature and customization is a new line item. That&#x27;s for a 1:1 replacement on a system installed in 2008. Incredible, given how fast the tech world moves.<p>Replacement parts cost a shocking $4000 per pair of lanes. But wait, the bowling machines themselves are 70 years old, so what&#x27;s this &quot;advanced&quot; system actually doing back there? Actuating a single relay to trigger that big old machine. Everything else is strictly mechanical. Meanwhile I&#x27;ve got a six-figure invoice in my hand. I&#x27;m upset.<p>Given the state of open hardware, computer vision, real-time event streaming, and open source running megascale products worldwide, there had to be a way to do this myself.<p>So far I&#x27;ve built an equivalent prototyp"
+    },
+    {
+      "rank": 2,
+      "id": "49124218",
+      "name": "Elevators",
+      "tagline": "",
+      "url": "https://john.fun/elevators",
+      "hnUrl": "https://news.ycombinator.com/item?id=49124218",
+      "score": 1617,
+      "comments": 397,
+      "author": "Jrh0203",
+      "launchDate": "2026-07-31T15:17:28Z",
+      "isShowHN": true,
+      "description": ""
+    },
+    {
+      "rank": 3,
+      "id": "48845049",
+      "name": "18 Words",
+      "tagline": "",
+      "url": "https://18words.com/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48845049",
+      "score": 1160,
+      "comments": 366,
+      "author": "pompomsheep",
+      "launchDate": "2026-07-09T12:48:52Z",
+      "isShowHN": true,
+      "description": ""
+    },
+    {
+      "rank": 4,
+      "id": "49008211",
+      "name": "Bento",
+      "tagline": "An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "url": "https://bento.page/slides/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49008211",
+      "score": 1031,
+      "comments": 239,
+      "author": "starfallg",
+      "launchDate": "2026-07-22T15:19:23Z",
+      "isShowHN": true,
+      "description": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness.<p>To avoid this loop, I ended up creating Bento, a single HTML file with everything you need in a slide tool including animations and shared editing. There&#x27;s no install or cloud login, everything works offline. The default deck is around 560 KB and it doesn&#x27;t need to fetch anything once you got it.<p>Open it in a browser and then you can edit, present, print and save. Share it via email or via Airdrop and all they need is a browser to edit, present and also do live collab on the slides. Drop it in to Claude or ChatGPT to transform existing pptx files into Bento slides. There is no cloud involved, only an encrypted blind relay to allow for shared editing. The relay doesn&#x27;t see any of the data.<p>Check it out at <a href=\"https:&#x2F;&#x2F;bento.page&#x2F;slides&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;bento.page&#x2F;slides&#x2F;</a> which takes you straight to the editor.<p>Go to <a href=\"https:&#x2F;&#x2F;bento.page&#x2F;guestbook&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;bento.page&#x2F;guestbook&#x2F;</a> to try out the live guestbook to experience share editing &#x2F; collab.<p>There is also a gallery with some sample decks on the website - <a href=\"https:&#x2F;&#x2F;bento.page&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;bento.page&#x2F;</a><p>All the code is MIT licensed and you can find it here - <a href=\"https:&#x2F;&#x2F;github.com&#x2F;nyblnet&#x2F;bento\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;nyblnet&#x2F;bento</a> . I used reveal.js with several other libraries (including some homegrown ones), and Claude Code."
+    },
+    {
+      "rank": 5,
+      "id": "48842459",
+      "name": "Getting GLM 5.2 running on my slow computer",
+      "tagline": "",
+      "url": "https://github.com/JustVugg/colibri",
+      "hnUrl": "https://news.ycombinator.com/item?id=48842459",
+      "score": 937,
+      "comments": 240,
+      "author": "vforno",
+      "launchDate": "2026-07-09T08:05:04Z",
+      "isShowHN": true,
+      "description": "A few days ago I found myself trying out GLM 5.2 and was really positively impressed. The capabilities and security I was getting from this LLM are similar to those I&#x27;ve gotten from models like Claude or GPT, and this really surprised me.<p>But then I thought, &quot;I wonder how it would work on a normal computer like mine,&quot; and above all, &quot;I wonder if it would work without going into OOM on a computer like mine.&quot; So I started working with the help of agents to test this possibility.<p>I started converting the model to int4, understanding MTP usage, and if possible implementing DSA for long context. How it responds in int4 and whether the quality is maintained or not. Until I got to the point, on my computer with 32GB of RAM, I was able to communicate with GLM 5.2 with times that, of course, aren&#x27;t high in cold start, but even then, we&#x27;re talking about 0.1 tok&#x2F;s, but that wasn&#x27;t important to me. The important thing was the journey to reach this goal. I just wanted it to work at all costs, even slowly.<p>So I created Colibrì, which was born from a very simple idea, to be honest, but tested in every way, where a 744B Mixture-of-Experts model activates only ~40B parameters per token—and only ~11 GB of those change from token to token (the routed experts). So:<p>The dense part (attention, shared experts, embeddings—~17B params) stays resident in RAM at int4 (~9.9 GB); The 21,504 routed experts (75 MoE layers × 256 experts + the MTP head, ~19 MB each at int4) live on disk (~370 GB) and are streamed on demand, with a per-layer LRU cache, an optional pinned hot-store, and the OS page cache as a free L2.<p>The engine is a single C file (c&#x2F;glm.c, ~1,300 lines) plus small headers. No BLAS, no Python at runtime, no GPU.No GPU or serious hardware because I don&#x27;t have that hardware so I can&#x27;t test it on hardware that is more powerful than my computer.Colibrì is a one-person project, written and tested entirely on a 12-core l"
+    },
+    {
+      "rank": 6,
+      "id": "49098510",
+      "name": "Open",
+      "tagline": "source engine running Gemma 4 26B in 2 GB RAM on any M",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "hnUrl": "https://news.ycombinator.com/item?id=49098510",
+      "score": 909,
+      "comments": 341,
+      "author": "gitpusher42",
+      "launchDate": "2026-07-29T15:05:43Z",
+      "isShowHN": true,
+      "description": "Hi HN,<p>I built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal.<p>I have always adored on-device AI. It feels like magic that you can run a powerful NN on your Mac or iPhone. So I wanted to push the limits a bit and run a model whose weights don’t fit in memory.<p>The model’s 4-bit quantized weights occupy roughly 14 GB, which makes running it with conventional inference tools almost impossible on an 8 GB or even 16 GB Mac once the OS, applications, and KV cache are included.<p>The trick is to keep the shared part of the model and the KV cache in RAM, then stream only the routed experts needed for each token from SSD. An SSD is way slower than RAM, so the runtime uses a small expert cache and bounded parallel `pread`. While those reads are in flight, the GPU runs the shared part of the layer.<p>I ran more than 100 experiments. Most didn’t work. A few got me here. The experiments are described in the GitHub repo.<p>It currently generates 5–6 tok&#x2F;s on an 8 GB M2 MacBook Air and 31–35 tok&#x2F;s on an M5 MacBook Pro.<p>I also added an experimental OpenAI-compatible local server. It supports streaming and tool calls, and reuses one prompt prefix from the KV cache.<p>Try it! The Mac app is easy to install. On the first run, it will download 15 GB of weights from Hugging Face. The model is surprisingly capable.<p>I would love any kind of feedback!"
+    },
+    {
+      "rank": 7,
+      "id": "49026810",
+      "name": "Echo",
+      "tagline": "Fable",
+      "url": "https://news.ycombinator.com/item?id=49026810",
+      "hnUrl": "https://news.ycombinator.com/item?id=49026810",
+      "score": 484,
+      "comments": 229,
+      "author": "adam_rida",
+      "launchDate": "2026-07-23T19:26:01Z",
+      "isShowHN": true,
+      "description": "I’ve been building Echo (<a href=\"https:&#x2F;&#x2F;echo.tracerml.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;echo.tracerml.ai&#x2F;</a>), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model and using it for every task.<p>It started with a simple experiment. I took a group of models, including GLM-5.2, Kimi K2.7 and others, and ran them on the same evaluations. Then I measured what would happen if, for each problem, you somehow knew in advance which models would be useful and how their outputs should be combined.<p>That hypothetical system performed substantially better than any individual model in the pool. Of course, it is not something you can actually deploy because it relies on knowing which decisions were good after seeing the result. Echo is my attempt to recover some of that advantage without having that information in advance.<p>For each request, Echo decides how much computation to allocate, which models should participate, and how their work should be combined. Some prompts may only need a relatively small amount of inference, while others benefit from multiple models working on different parts of the problem.<p>One thing that surprised me while building it was how complementary the models are. A model that is clearly weaker overall can still be extremely useful on particular problems or as part of a combination.<p>On my first evaluation mix, Echo consistently performed better than the best individual model in its pool. It also reached roughly the same aggregate result as Fable, which I used as one of the stronger comparison systems, at around one third of the inference cost.<p>There are still some cases where Echo makes the wrong allocation or combination decision. I’m currently spending a lot of time understanding those failures, as well as testing whether the same approach holds up on coding and agentic tasks where measuring the quality of each decision becomes much harder.<p>I built a chat inter"
+    },
+    {
+      "rank": 8,
+      "id": "49021270",
+      "name": "Physically accurate black hole you can put in your room",
+      "tagline": "",
+      "url": "https://blackhole.plav.in",
+      "hnUrl": "https://news.ycombinator.com/item?id=49021270",
+      "score": 476,
+      "comments": 191,
+      "author": "aplavin",
+      "launchDate": "2026-07-23T13:29:24Z",
+      "isShowHN": true,
+      "description": "We have a black hole at home — with actual relativistic physics, live in your browser.<p>I&#x27;m Sasha (Alexander) Plavin, an astrophysicist at Harvard&#x27;s Black Hole Initiative studying quasars and black hole environments. I work with raytracing&#x2F;radiative transfer simulations professionally, and wanted to make one anyone can play with — so I built this app.<p>Put the black hole onto your screen (any browser), or directly into your room with AR or VR (requires WebXR, for example Chrome on Android, or any VR headset). When looking around, pay attention to unintuitive relativistic effects: rays bending around the black hole, and special relativistic &quot;Doppler boosting&quot; changing brightness depending on the viewing angle — zoom out to see the fast jet where the latter effect is especially pronounced. Faint markers show where other viewers are standing right now.<p>Alternatively, put the black hole in front of your camera and watch it lens your actual surroundings. Light winds around the hole, so you see both what&#x27;s in front of you and what&#x27;s behind you at once (when the device and browser allow both camera feeds). The closer to the black hole, the stronger the bending — and the longer the light-travel delay: wave at it and watch the changes propagate inward. (unfortunately, WebXR restrictions make AR passthrough and the camera feed mutually exclusive)<p>No signup, basic features work on every device, no data uploaded — the camera feed never leaves your device. Source code: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;aplavin&#x2F;blackhole.plav.in\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;aplavin&#x2F;blackhole.plav.in</a>.<p>Enjoy having a black hole in your room, or use it for education&#x2F;outreach — any questions, feedback, or suggestions are welcome!"
+    },
+    {
+      "rank": 9,
+      "id": "49090607",
+      "name": "I was tired of opening 2 tabs for every HN link, so I made a userscript",
+      "tagline": "",
+      "url": "https://github.com/twalichiewicz/HNewhere",
+      "hnUrl": "https://news.ycombinator.com/item?id=49090607",
+      "score": 431,
+      "comments": 124,
+      "author": "twalichiewicz",
+      "launchDate": "2026-07-28T22:09:06Z",
+      "isShowHN": true,
+      "description": "HN is great for the links people share, but a big part of the value I get comes from reading the discussion around them. I realized I was always opening the article in one tab and the comments in another, constantly switching back and forth.<p>I figured there was probably a simpler way, so I threw together this userscript to merge the two.<p>1. Clicking a link from Hacker News opens the article with a side panel containing the discussion. It doesn&#x27;t require your credentials, is resizable, and is easy to tweak if you want to customize it.<p>2. If you land on an article that has previously been shared on HN, the script finds the existing discussion and adds a button in the top-right to open the panel.<p>Feedback welcome."
+    },
+    {
+      "rank": 10,
+      "id": "48896286",
+      "name": "Super Dario",
+      "tagline": "",
+      "url": "https://superdario.pawb.de",
+      "hnUrl": "https://news.ycombinator.com/item?id=48896286",
+      "score": 397,
+      "comments": 100,
+      "author": "thepasch",
+      "launchDate": "2026-07-13T17:53:52Z",
+      "isShowHN": true,
+      "description": ""
+    },
+    {
+      "rank": 11,
+      "id": "48821848",
+      "name": "Davit, a Apple Containers UI",
+      "tagline": "",
+      "url": "https://davit.app",
+      "hnUrl": "https://news.ycombinator.com/item?id=48821848",
+      "score": 389,
+      "comments": 101,
+      "author": "xinit",
+      "launchDate": "2026-07-07T18:44:29Z",
+      "isShowHN": true,
+      "description": "Mostly vibe-coded Apple Containers front-end that I&#x27;d like to use myself. But if others want to use it, here&#x27;s the source code."
+    },
+    {
+      "rank": 12,
+      "id": "48834924",
+      "name": "Microsoft releases Flint, a visualization language for AI agents",
+      "tagline": "",
+      "url": "https://microsoft.github.io/flint-chart/#/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48834924",
+      "score": 350,
+      "comments": 138,
+      "author": "chenglong-hn",
+      "launchDate": "2026-07-08T17:46:12Z",
+      "isShowHN": true,
+      "description": "Data visualizations are the bridge between user and data.<p>But building AI agents that can generate visualizations reliably can be very tricky:<p>- simple chart specs can be reliable, but generated charts are often of low quality due to reliance on system defaults; - complex chart specs with explicit details can produce good-looking charts, but they are verbose and agents can struggle with reliability<p>We figured out it is a limitation on the language issue (not just AI capability thing) -- current visualization languages are a bit too low-level for AI agents, requiring them to explicitly make visual decisions that are supposed to be handled by a good compiler. Flint is a visualization intermediate language to address this issue, allow AI agents to solve this last-mile human-agent interaction problem. It provides a simple semantic-type based specification, and contains a layout optimization engine that can produce good-looking charts (filled with derived low-level details) from simple high-level specs. The result is also very human understandable and adaptable. Flint powers data formulator for generating visualizations (another open source project from microsoft <a href=\"https:&#x2F;&#x2F;data-formulator.ai&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;data-formulator.ai&#x2F;</a>).<p>Flint is available open source, and we built a MCP server that you can directly plug flint in your favorite agent app to play with data."
+    },
+    {
+      "rank": 13,
+      "id": "48875377",
+      "name": "Ant",
+      "tagline": "A JavaScript runtime and ecosystem",
+      "url": "https://antjs.org",
+      "hnUrl": "https://news.ycombinator.com/item?id=48875377",
+      "score": 330,
+      "comments": 149,
+      "author": "theMackabu",
+      "launchDate": "2026-07-11T20:07:18Z",
+      "isShowHN": true,
+      "description": "Hello HN!<p>I&#x27;m the author of Ant, a JavaScript ecosystem built around a runtime with its own JavaScript engine. Ant also includes a package manager, the ants.land package registry, a platform for deploying and hosting applications, and Ant Desktop for building native desktop apps with web technologies, similar to Electron.<p>The goal is for these pieces to work as one coherent platform while remaining compatible with the wider JavaScript ecosystem. It&#x27;s still early, and I&#x27;d appreciate any feedback on the overall direction or what you&#x27;d like to see from an e2e alternative to the existing JavaScript stacks.<p>P.S. I’ve shared Ant here before as a runtime; since then, it has grown into the broader ecosystem you see today."
+    },
+    {
+      "rank": 14,
+      "id": "49140396",
+      "name": "I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built",
+      "tagline": "",
+      "url": "https://github.com/tom-ilan/cycloidal_gearbox",
+      "hnUrl": "https://news.ycombinator.com/item?id=49140396",
+      "score": 285,
+      "comments": 94,
+      "author": "tomilan",
+      "launchDate": "2026-08-02T02:07:09Z",
+      "isShowHN": true,
+      "description": ""
+    },
+    {
+      "rank": 15,
+      "id": "49100043",
+      "name": "CheapFoodMap",
+      "tagline": "A map of good meals under $10",
+      "url": "https://cheapfoodmap.com/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49100043",
+      "score": 283,
+      "comments": 257,
+      "author": "jaep1",
+      "launchDate": "2026-07-29T16:59:52Z",
+      "isShowHN": true,
+      "description": "I was recently laid off after 18 years, and gave myself 100 days to build soething useful in public. CheapFoodMap is a crowdsourced map of meal under $10, excluding franchises, local good eats only.<p>It&#x27;s inspried by 거지맵 (Begger&#x27;s Map) a Korean crowdsourced map students use to find cheap eats.<p>Ocverage is heaviest in Texas, since I live in Dallas, but have 1200 meals across 15 US cities. Seed data came from Google Review, 4.2 star or higher with at least 500 reviews, and verified price under $10 per menu item.<p>Things I would love feedback on : whether the price-freshness model makes sense, and what would make you trust the price on a site like this. How to encourage people to update prices, since inflation is making food price very frequent.<p>https:&#x2F;&#x2F;cheapfoodmap.com<p>Any and all suggestion will be super helpful. Thank you!"
+    },
+    {
+      "rank": 16,
+      "id": "48883305",
+      "name": "Juggler",
+      "tagline": "an open",
+      "url": "https://github.com/juggler-ai/juggler",
+      "hnUrl": "https://news.ycombinator.com/item?id=48883305",
+      "score": 280,
+      "comments": 119,
+      "author": "julesrms",
+      "launchDate": "2026-07-12T18:28:15Z",
+      "isShowHN": true,
+      "description": "Hello HN, I don&#x27;t post on here much, but wanted to get some eyes on a new project I&#x27;m just launching. I think we definitely need one more AI code agent..<p>I&#x27;m a long-term C++ dev, and over 30+ years I&#x27;ve created some successful audio dev tools (JUCE, the Tracktion DAW, the Cmajor DSP language). All of these came from me getting annoyed with something I had to use, and deciding to have a go at my own take on whatever it was.<p>So Juggler is my attempt at an AI code agent, after spending too many hours loving what the models could do, but hating the CLI experience, and having some opinions of what a better UX might be for this stuff.<p>Lots more blurb on the website and github, but a quick tech dump which might grab your attention if you&#x27;re into these things:<p>A session is a document, not a log file. Each conversation is a Yjs CRDT tree. It can branch into sub-threads (recursively), and you can drill down, backtrack, edit, undo&#x2F;redo, and inspect everything: tool calls, approvals, and the raw context JSON going to the model, etc. The UI is based around Finder-style Miller columns rather than a big doom-scroll, and is quick to navigate.<p>Because it&#x27;s a CRDT behind a local web server, multiple clients can attach P2P to a live session: the native desktop app, a browser tab, or your phone. Run the headless server on the box where the code lives, view it from wherever.<p>Almost everything is a JavaScript plugin: every item in the context (read&#x2F;write&#x2F;bash&#x2F;etc.), the LLM loop strategies, slash commands, and their UIs. You can inspect, fork, or replace any of them. I don&#x27;t do much agent customisation myself, but lots of people do, and I&#x27;d love to see what they think of with this plugin API.<p>Go backend, Wails for windowing (no Electron), plain type-checked JS (strict JSDoc), Yjs for the documents. Usual BYOK provider support: Claude (CLI or API), OpenAI&#x2F;Codex, Gemini, Ollama, OpenRouter, DeepSeek, etc.<p>The "
+    },
+    {
+      "rank": 17,
+      "id": "48926939",
+      "name": "Firefox in WebAssembly",
+      "tagline": "",
+      "url": "https://developer.puter.com/labs/firefox-wasm/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48926939",
+      "score": 273,
+      "comments": 126,
+      "author": "coolelectronics",
+      "launchDate": "2026-07-15T21:00:17Z",
+      "isShowHN": true,
+      "description": "This is the entire Firefox browser rendering to a &lt;canvas&gt; element. Gecko, all UI components, and the Spidermonkey JS engine are all compiled and running in WebAssembly.<p>Here are a few things you might find interesting:<p>- This is fully end to end encrypted! We use the WISP protocol for TCP-over-websockets.<p>- There is a novel WASM-&gt;JS JIT for experimental site speedup<p>- This port cost over 25k in opus&#x2F;fable tokens for debugging and JIT research<p>This was just a fun experiment to push the boundaries of WebAssembly. For a more usable &quot;browser in browser&quot; experience, we also built <a href=\"https:&#x2F;&#x2F;github.com&#x2F;HeyPuter&#x2F;browser.js\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;HeyPuter&#x2F;browser.js</a> that eats a bit less RAM."
+    },
+    {
+      "rank": 18,
+      "id": "49057666",
+      "name": "Reverse Minesweeper",
+      "tagline": "",
+      "url": "https://sunflowersgame.com/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49057666",
+      "score": 264,
+      "comments": 92,
+      "author": "pompomsheep",
+      "launchDate": "2026-07-26T12:51:03Z",
+      "isShowHN": true,
+      "description": ""
+    },
+    {
+      "rank": 19,
+      "id": "48984254",
+      "name": "Immersive Gaussian Splat tour of grace cathedral, San Francisco",
+      "tagline": "",
+      "url": "https://vincentwoo.com/3d/grace_cathedral/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48984254",
+      "score": 263,
+      "comments": 60,
+      "author": "akanet",
+      "launchDate": "2026-07-20T20:10:44Z",
+      "isShowHN": true,
+      "description": ""
+    },
+    {
+      "rank": 20,
+      "id": "49020545",
+      "name": "I simulated closing the Strait of Hormuz on real oil trade data",
+      "tagline": "",
+      "url": "https://globaloilnetwork.staffinganalytics.io/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49020545",
+      "score": 244,
+      "comments": 128,
+      "author": "eliotho",
+      "launchDate": "2026-07-23T12:31:21Z",
+      "isShowHN": true,
+      "description": "OP here: I created this visualization tool as the byproduct of a supply chain class I taught at Columbia. The pedagogical exercise grew into a full blown visualization and paper about global oil trade.<p>The model: The mechanics are the same as the financial network Eisenberg-Noe: Instead of banks, every country consumes oil interconnected via bilateral trading. Shocks propagate throughout the network, depleting oil reserves when bottleneck nodes (such as the Strait of Hormuz) are blocked.<p>Insights: The interesting part is the mechanics of how the crisis unfolds: for example, France receives 0 oil from Hormuz directly, yet their reserves are depleted faster because other countries reactively increase their safety oil stock, increasing oil price, making stockouts more expensive for everyone.<p>The model also gives price dynamics which are interesting on their own: the price increase is not immediate, it follows sequentially as countries reserves deplete.<p>Some caveats: 1. For producer nodes, depletion means their export slack is reduced&#x2F;exhausted. 2. No sanctioned trade (UN Comtrade data)<p>Technical Details: The visualization is 600 lines of flask plus js frontend (LLM assisted visualization with ground-truth matching the original numerical exercise of the paper)<p>Paper with proofs&#x2F;theory: <a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2607.17491\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2607.17491</a>"
+    },
+    {
+      "rank": 21,
+      "id": "48816987",
+      "name": "Yamanote.fun",
+      "tagline": "A complete soundscape for Tokyo's Yamanote line",
+      "url": "https://www.yamanote.fun/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48816987",
+      "score": 238,
+      "comments": 62,
+      "author": "madebymagnolia",
+      "launchDate": "2026-07-07T12:47:46Z",
+      "isShowHN": true,
+      "description": "After visiting Japan for the first time a decade ago I became completely enamoured with Tokyo&#x27;s Yamanote Line railway loop. Particularly the sonic experience of it. Like so many others I fell in love with the charming departure melodies and enjoyed discovering experiences like Yamanot.es (<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=45045307\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=45045307</a>) here on Hacker News when I returned home.<p>But it wasn&#x27;t until my second trip to Tokyo that I truly appreciated how much the door chimes, on-board announcements and train noise were contributing to the rich soundscape that I loved.<p>I returned home and found myself playing YouTube videos of Yamanote Line journeys as I worked. The combination of sonics, ambience and softly spoken Japanese was incredibly soothing to me.<p>But these recordings were often incomplete, poorly captured or out of date, and I wanted something far more comprehensive.<p>So I gathered up all of the constituent parts from Reddit threads, YouTube videos and Japanese fan sites, and set about recreating the experience of riding the Yamanote Line in Logic Pro X. Melody, door chimes and announcement, all stitched together under a bed of train noise and ambience.<p>I turned those soundscapes into an Alexa Skill (<a href=\"https:&#x2F;&#x2F;www.amazon.co.uk&#x2F;Paul-Jackson-Yamanote-Line&#x2F;dp&#x2F;B07S18QRMV\" rel=\"nofollow\">https:&#x2F;&#x2F;www.amazon.co.uk&#x2F;Paul-Jackson-Yamanote-Line&#x2F;dp&#x2F;B07S1...</a>) in 2019 and began to think about a companion website to share the soundscapes with a wider audience.<p>Seven years later and that website is Yamanote.fun: <a href=\"https:&#x2F;&#x2F;www.yamanote.fun&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.yamanote.fun&#x2F;</a>.<p>It&#x27;s a small installable web app that plays the soundscapes like a playlist. All 30 stations and in both directions, since the inner and outer loops use different melodies. You can skip f"
+    },
+    {
+      "rank": 22,
+      "id": "48798153",
+      "name": "Homegames. An open",
+      "tagline": "source game platform I've been making for 8 years",
+      "url": "https://homegames.io",
+      "hnUrl": "https://news.ycombinator.com/item?id=48798153",
+      "score": 229,
+      "comments": 56,
+      "author": "homegamesjoseph",
+      "launchDate": "2026-07-05T21:32:44Z",
+      "isShowHN": true,
+      "description": "I&#x27;m making a platform for simple open source games you can play anywhere.<p>Games are all just JavaScript classes and you can read the source of every game on the platform.<p>I started working on initial &quot;games&quot; (mostly rendering tests) in 2018 and eventually built all of the platform stuff around it to make it easy to share games.<p>There&#x27;s also an in-browser editor available for you to make and publish games all from the browser.<p>Would love some feedback on the games and studio features as well as the platform overall. All of the code is available at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;homegamesio\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;homegamesio</a>"
+    },
+    {
+      "rank": 23,
+      "id": "49049693",
+      "name": "Brolly, a plain",
+      "tagline": "text weather forecast site",
+      "url": "https://brolly.sh/forecast/RWFP2qW8",
+      "hnUrl": "https://news.ycombinator.com/item?id=49049693",
+      "score": 227,
+      "comments": 84,
+      "author": "jsax",
+      "launchDate": "2026-07-25T17:34:34Z",
+      "isShowHN": true,
+      "description": "The UK MET office recently redesigned their site, adding a lot of additional whitespace, scrolling, and animations. This significantly reduced its usability for me, and left me wanting an ‘at a glance’ weather site.<p>I made <a href=\"https:&#x2F;&#x2F;brolly.sh\" rel=\"nofollow\">https:&#x2F;&#x2F;brolly.sh</a>, a minimalist, plain text weather forecasting site. You can use it to view weather from around the world, with: 7 day forecast; Previous day log (so you can confirm it definitely was cooler &#x2F; hotter &#x2F; wetter &#x2F; drier yesterday!); Hourly rain, wind, temperature, conditions; Hourly UV, air quality and pollen, including pollen type specific forecasts within the EU &#x2F; UK; Location search and last 5 locations; Location specific units.<p>I mostly made the site for myself, if anyone else also benefits from it that’s an added advantage.<p>You can check out the weather in York, UK at <a href=\"https:&#x2F;&#x2F;brolly.sh&#x2F;forecast&#x2F;RWFP2qW8\" rel=\"nofollow\">https:&#x2F;&#x2F;brolly.sh&#x2F;forecast&#x2F;RWFP2qW8</a>, or search for a location at <a href=\"https:&#x2F;&#x2F;brolly.sh\" rel=\"nofollow\">https:&#x2F;&#x2F;brolly.sh</a><p>The site is deliberately styled as a single long scrollable column, to work on mobile phones. You can view it on desktop too, there&#x27;s just a lot of horizontal padding. I naturally took a lot of inspiration from plaintextsports.com. Despite not being a sports fan, I love its aesthetic. But, you&#x27;ll hopefully see that this site isn&#x27;t a rip off, and has its own deliberate look and feel.<p>Visualisations are really important to showing information at a glance. I spent a lot of time designing the different visualisations and making them work with only characters. My favourite is the hourly heat map used for pollen count.<p>It&#x27;s also frustrating to have an interactive site, where you can&#x27;t share a page with a friend and have them see what you&#x27;re seeing. To solve this, all page state (i.e. location, "
+    },
+    {
+      "rank": 24,
+      "id": "48892859",
+      "name": "Clawk",
+      "tagline": "Give coding agents a disposable Linux VM, not your laptop",
+      "url": "https://github.com/clawkwork/clawk",
+      "hnUrl": "https://news.ycombinator.com/item?id=48892859",
+      "score": 226,
+      "comments": 159,
+      "author": "celrenheit",
+      "launchDate": "2026-07-13T14:02:03Z",
+      "isShowHN": true,
+      "description": ""
+    },
+    {
+      "rank": 25,
+      "id": "49054010",
+      "name": "I mapped every US golf course",
+      "tagline": "",
+      "url": "https://golfcoursebrowser.com/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49054010",
+      "score": 222,
+      "comments": 167,
+      "author": "rickmf",
+      "launchDate": "2026-07-26T02:22:26Z",
+      "isShowHN": true,
+      "description": "I got tired of Googling basic course info, so I made a free directory of every US course<p>Google filters for golf course results are terrible so I built a better way to browse courses using OSM as the backbone.... <a href=\"https:&#x2F;&#x2F;golfcoursebrowser.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;golfcoursebrowser.com&#x2F;</a><p>It&#x27;s a work in progress and mostly US for now, but I want to expand to the rest of North America, the EU, and the rest of the world ASAP.<p>It&#x27;s free, no ads, no login, no bs. If you spot anything wrong (bad info, a missing course, wrong scorecard), you can flag it right on the course page. I actually read those and fix them.<p>Still a lot of missing info, but I&#x27;m filling out more and more each day. The goal is the most complete, and current golf course directory in the world, verified and maintained by actual golfers. I think is attainable in the next few months. The base layer is OpenStreetMap, cross-checked against course websites and enriched with scorecards, USGA rating&#x2F;slope, and public&#x2F;private status. User corrections from golfers who know their home course have beaten every commercial data source we check against."
+    },
+    {
+      "rank": 26,
+      "id": "48819808",
+      "name": "Rowboat",
+      "tagline": "Open",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "hnUrl": "https://news.ycombinator.com/item?id=48819808",
+      "score": 219,
+      "comments": 99,
+      "author": "segmenta",
+      "launchDate": "2026-07-07T16:10:44Z",
+      "isShowHN": true,
+      "description": "Claude’s desktop app is brilliant, but for our own daily work we kept wanting it to be less like a chat app and more like a full-fledged work app. Rowboat is our attempt at that, including the ability to build your own work surfaces inside Rowboat (more below).<p>Our repo is <a href=\"https:&#x2F;&#x2F;github.com&#x2F;rowboatlabs&#x2F;rowboat\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;rowboatlabs&#x2F;rowboat</a>, and there’s a demo video here: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=et5yQABJ3xI\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=et5yQABJ3xI</a><p>In a previous startup, we built a deep-learning product for enterprise support reps, including teams supporting P&amp;G brands. Models took live notes, suggested replies, and recommended actions while support reps were on calls or handling emails. One lesson stuck with us: it&#x27;s not enough for the AI to be right, the help has to show up where the work is happening.<p>So we added what we came to call “work surfaces”: dedicated areas for email, meetings, notes, browser, and parallel coding, where the assistant can help inside the workflow itself rather than only through chat:<p>- Email client: Rowboat has a simple email client that sorts incoming emails into important vs. everything else, and pre-creates drafts for important emails. As you edit and send emails, it takes notes on your style, so future drafts get closer to your voice.<p>- Meeting notes: We built a Granola-style local meeting notetaker. Notes are stored as plain Markdown files on your machine. After a meeting, Rowboat feeds the notes back into the knowledge graph and updates the relevant people, project, and topic notes.<p>- Browser: We added a built-in browser, isolated from your main one, where you can log in only to the accounts you want the assistant to help with. The assistant uses browser-use skills to navigate websites.<p>- Parallel coding: The code-mode inside Rowboat lets you spin multiple instances"
+    },
+    {
+      "rank": 27,
+      "id": "49008406",
+      "name": "HN Hall of Fame",
+      "tagline": "browse 3,100 legendary Hacker News links",
+      "url": "https://www.orangecrumbs.com/hall/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49008406",
+      "score": 219,
+      "comments": 38,
+      "author": "oyster143",
+      "launchDate": "2026-07-22T15:30:36Z",
+      "isShowHN": true,
+      "description": ""
+    },
+    {
+      "rank": 28,
+      "id": "49039868",
+      "name": "I made some transistor animations",
+      "tagline": "",
+      "url": "https://brandonli.net/semisim/animations",
+      "hnUrl": "https://news.ycombinator.com/item?id=49039868",
+      "score": 211,
+      "comments": 32,
+      "author": "stunningllama",
+      "launchDate": "2026-07-24T18:37:06Z",
+      "isShowHN": true,
+      "description": "Hi HN, I made some animations of the most important kinds of transistors using my semiconductor simulation, details of which are on the page. I tried to make the visuals as realistic as possible while also aiming for clarity. If you want to go beyond the charge carriers and look at, for example, the electric field, you can do so in the simulation software. The desktop software also has less common devices like IBGTs and SCRs that have similar animations.<p>The last thread about my software was posted here about a year ago: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=43942279\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=43942279</a>"
+    },
+    {
+      "rank": 29,
+      "id": "49119425",
+      "name": "Gander, an Android file viewer that asks for no permissions",
+      "tagline": "",
+      "url": "https://github.com/mokshablr/gander",
+      "hnUrl": "https://news.ycombinator.com/item?id=49119425",
+      "score": 207,
+      "comments": 74,
+      "author": "mokshablr",
+      "launchDate": "2026-07-31T05:45:13Z",
+      "isShowHN": true,
+      "description": "Hi HN,<p>I built an Android file viewer that opens PDF, Word, Excel, PowerPoint, images, video, audio, Markdown and code, and asks for no permissions at all.<p>I have always been uneasy about opening files people send me. On Android you either install a 400 MB office suite and sign in or use a small free viewer that wants storage access and ends up uploading your file to a server to render it. Also the hassle of having to download different apps for different file formats was really annoying.<p>Gander holds no permissions, not even INTERNET so the OS itself guarantees the file cannot leave the phone.<p>PDFs use Pdfium, media uses Media3, and Office formats are rendered by bundled JS libraries in a WebView and so no request goes to any server.<p>It is a viewer only. Complex PowerPoint decks come out approximately right, spreadsheet charts are not drawn, and old binary .doc and .ppt are unsupported. I&#x27;ll work on it as issues come up :P<p>It is 14 MB, MIT licensed and uploaded on Github releases.<p>Do try it! I would love some feedback especially on files that render badly or need new support."
+    },
+    {
+      "rank": 30,
+      "id": "48871973",
+      "name": "Learn by rebuilding Redis, Git, a database from scratch",
+      "tagline": "",
+      "url": "https://shipthatcode.com",
+      "hnUrl": "https://news.ycombinator.com/item?id=48871973",
+      "score": 200,
+      "comments": 68,
+      "author": "acley",
+      "launchDate": "2026-07-11T13:40:27Z",
+      "isShowHN": true,
+      "description": ""
+    }
+  ],
+  "meta": {
+    "fetchedAt": "2026-08-02T19:03:32.229Z",
+    "version": "1.0.0",
+    "counts": {
+      "hackerNews": 30,
+      "github": 15,
+      "arxiv": 30,
+      "ycombinator": 30
+    },
+    "llm": {
+      "provider": null,
+      "enabled": false
+    }
+  }
+}

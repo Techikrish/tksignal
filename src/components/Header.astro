@@ -1,0 +1,291 @@
+---
+import feedData from '../data/feed.json';
+const meta = feedData.meta;
+const fetchDate = new Date(meta.fetchedAt);
+const formattedDate = fetchDate.toLocaleDateString('en-US', {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+const formattedTime = fetchDate.toLocaleTimeString('en-US', {
+  hour: '2-digit',
+  minute: '2-digit',
+  hour12: true,
+});
+const totalItems = meta.counts.hackerNews + meta.counts.github + meta.counts.arxiv + meta.counts.ycombinator;
+---
+
+<header class="header">
+  <div class="header-top">
+    <div class="logo-group">
+      <span class="logo-icon">📡</span>
+      <div class="logo-text">
+        <h1 class="site-title">tksignal</h1>
+        <p class="site-tagline">Your tech signal dashboard</p>
+      </div>
+    </div>
+    <div class="header-meta">
+      <div class="meta-badge">
+        <span class="pulse"></span>
+        <span class="meta-text">Live Data</span>
+      </div>
+      <a href="https://github.com/techikrish/tksignal" class="github-link" target="_blank" rel="noopener noreferrer" aria-label="View source on GitHub">
+        <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div class="header-info">
+    <time class="date" datetime={meta.fetchedAt}>{formattedDate} · {formattedTime}</time>
+    <div class="stats">
+      <span class="stat">📊 {totalItems} signals</span>
+      <span class="stat-divider">·</span>
+      <span class="stat">🔄 Updated every 12h</span>
+    </div>
+  </div>
+  <nav class="section-nav" id="section-nav">
+    <a href="#hackernews" class="nav-pill nav-hn">🔥 Hacker News <span class="nav-count">{meta.counts.hackerNews}</span></a>
+    <a href="#ycombinator" class="nav-pill nav-yc">🚀 YC Startups <span class="nav-count">{meta.counts.ycombinator}</span></a>
+    <a href="#github" class="nav-pill nav-github">⭐ GitHub <span class="nav-count">{meta.counts.github}</span></a>
+    <a href="#arxiv" class="nav-pill nav-arxiv">📚 arXiv <span class="nav-count">{meta.counts.arxiv}</span></a>
+  </nav>
+</header>
+
+<style>
+  .header {
+    margin-bottom: var(--space-2xl);
+    padding: var(--space-xl);
+    background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-default);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-lg);
+  }
+
+  .logo-group {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+  }
+
+  .logo-icon {
+    font-size: 3rem;
+    line-height: 1;
+    filter: drop-shadow(0 4px 12px rgba(102, 126, 234, 0.3));
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+  }
+
+  .site-title {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .site-tagline {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    margin-top: 2px;
+  }
+
+  .header-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+  }
+
+  .meta-badge {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--accent-green-light);
+    border: 2px solid var(--accent-green);
+    border-radius: 24px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent-green);
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.2);
+  }
+
+  .pulse {
+    width: 10px;
+    height: 10px;
+    background: var(--accent-green);
+    border-radius: 50%;
+    animation: pulse-dot 2s ease-in-out infinite;
+    box-shadow: 0 0 8px var(--accent-green);
+  }
+
+  @keyframes pulse-dot {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(0.85); }
+  }
+
+  .github-link {
+    color: var(--text-secondary);
+    display: flex;
+    padding: var(--space-sm);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+    background: var(--bg-card);
+    border: 1px solid var(--border-default);
+  }
+
+  .github-link:hover {
+    color: var(--text-primary);
+    background: var(--bg-tertiary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .header-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    padding: var(--space-md) 0;
+    border-top: 1px solid var(--border-muted);
+    border-bottom: 1px solid var(--border-muted);
+    margin-bottom: var(--space-lg);
+  }
+
+  .date {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+  }
+
+  .stats {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+  }
+
+  .stat-divider {
+    color: var(--border-default);
+  }
+
+  .section-nav {
+    display: flex;
+    gap: var(--space-sm);
+    overflow-x: auto;
+    padding-bottom: var(--space-xs);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .section-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-pill {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-md) var(--space-lg);
+    border-radius: 24px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: all var(--transition-base);
+    border: 2px solid var(--border-default);
+    background: var(--bg-card);
+    color: var(--text-secondary);
+    box-shadow: var(--shadow-xs);
+  }
+
+  .nav-pill:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+
+  .nav-hn:hover {
+    border-color: var(--hn-color);
+    background: var(--hn-bg);
+    color: var(--hn-color);
+  }
+
+  .nav-yc:hover {
+    border-color: var(--yc-color);
+    background: var(--yc-bg);
+    color: var(--yc-color);
+  }
+
+  .nav-github:hover {
+    border-color: var(--github-color);
+    background: var(--github-bg);
+    color: var(--github-color);
+  }
+
+  .nav-arxiv:hover {
+    border-color: var(--arxiv-color);
+    background: var(--arxiv-bg);
+    color: var(--arxiv-color);
+  }
+
+  .nav-count {
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 12px;
+    background: var(--bg-tertiary);
+    font-family: var(--font-mono);
+    font-weight: 600;
+  }
+
+  @media (max-width: 640px) {
+    .header {
+      padding: var(--space-lg);
+    }
+
+    .header-top {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-md);
+    }
+
+    .logo-icon {
+      font-size: 2.5rem;
+    }
+
+    .site-title {
+      font-size: 1.75rem;
+    }
+
+    .header-meta {
+      width: 100%;
+      justify-content: flex-start;
+    }
+
+    .header-info {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .nav-pill {
+      padding: var(--space-sm) var(--space-md);
+      font-size: 0.85rem;
+    }
+  }
+</style>

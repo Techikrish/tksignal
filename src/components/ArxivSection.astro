@@ -1,0 +1,286 @@
+---
+import feedData from '../data/feed.json';
+import SummaryBlock from './SummaryBlock.astro';
+const papers = feedData.arxiv || [];
+
+const categoryLabels = {
+  'cs.AI': 'AI',
+  'cs.LG': 'ML',
+  'cs.CL': 'NLP',
+  'cs.CV': 'Vision',
+  'cs.RO': 'Robotics',
+  'stat.ML': 'Stats/ML',
+  'cs.NE': 'Neural',
+  'cs.IR': 'Info Retrieval',
+  'cs.CR': 'Security',
+  'cs.SE': 'SoftEng',
+};
+
+const categoryColors = {
+  'cs.AI': 'var(--accent-purple)',
+  'cs.LG': 'var(--accent-blue)',
+  'cs.CL': 'var(--accent-pink)',
+  'cs.CV': 'var(--accent-green)',
+  'cs.RO': 'var(--accent-orange)',
+  'stat.ML': 'var(--accent-yellow)',
+};
+
+function formatAuthors(authors, total) {
+  const displayed = authors.slice(0, 3).join(', ');
+  if (total > 3) return `${displayed}, +${total - 3} more`;
+  return displayed;
+}
+
+function timeAgo(dateStr) {
+  const now = new Date();
+  const date = new Date(dateStr);
+  const days = Math.floor((now - date) / 86400000);
+  if (days === 0) return 'today';
+  if (days === 1) return 'yesterday';
+  return `${days}d ago`;
+}
+---
+
+<section class="feed-section" id="arxiv">
+  <div class="section-header">
+    <div class="section-title-group">
+      <span class="section-icon">📚</span>
+      <div>
+        <h2 class="section-title">New arXiv Papers</h2>
+        <p class="section-subtitle">Latest AI, ML & NLP research papers</p>
+      </div>
+    </div>
+    <span class="section-count">{papers.length} papers</span>
+  </div>
+
+  <div class="arxiv-list">
+    {papers.map((paper) => (
+      <article class="arxiv-item">
+        <div class="arxiv-categories">
+          {paper.categories.slice(0, 3).map((cat) => (
+            <span 
+              class="arxiv-cat"
+              style={`color: ${categoryColors[cat] || 'var(--text-secondary)'}; border-color: ${categoryColors[cat] || 'var(--border-default)'}; background: ${categoryColors[cat] || 'var(--text-secondary)'}10`}
+            >
+              {categoryLabels[cat] || cat}
+            </span>
+          ))}
+        </div>
+        <a href={paper.absUrl} class="arxiv-title" target="_blank" rel="noopener noreferrer">
+          {paper.title}
+        </a>
+        <p class="arxiv-summary">{paper.summary}</p>
+        <SummaryBlock whyRead={paper.aiWhyRead} summary={paper.aiSummary} />
+        <div class="arxiv-meta">
+          <span class="arxiv-authors">
+            👤 {formatAuthors(paper.authors, paper.authorCount)}
+          </span>
+          <span class="arxiv-divider">·</span>
+          <span class="arxiv-date">📅 {timeAgo(paper.published)}</span>
+          <span class="arxiv-divider">·</span>
+          <a href={paper.pdfUrl} class="arxiv-pdf" target="_blank" rel="noopener noreferrer">
+            📄 PDF
+          </a>
+          <span class="arxiv-divider">·</span>
+          <span class="arxiv-id">{paper.id}</span>
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+
+<style>
+  .feed-section {
+    margin-bottom: var(--space-3xl);
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-xl);
+    padding: var(--space-lg);
+    background: var(--arxiv-bg);
+    border-radius: var(--radius-lg);
+    border-left: 4px solid var(--arxiv-color);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .section-title-group {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+  }
+
+  .section-icon {
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: -0.02em;
+  }
+
+  .section-subtitle {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 2px;
+  }
+
+  .section-count {
+    font-size: 0.85rem;
+    color: var(--arxiv-color);
+    font-family: var(--font-mono);
+    font-weight: 700;
+    background: white;
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-md);
+    border: 2px solid var(--arxiv-border);
+  }
+
+  .arxiv-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .arxiv-item {
+    padding: var(--space-lg);
+    background: var(--bg-card);
+    border: 1px solid var(--border-default);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-base);
+    box-shadow: var(--shadow-xs);
+  }
+
+  .arxiv-item:hover {
+    border-color: var(--arxiv-border);
+    background: var(--arxiv-bg);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+
+  .arxiv-categories {
+    display: flex;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-md);
+  }
+
+  .arxiv-cat {
+    font-size: 0.7rem;
+    font-weight: 700;
+    font-family: var(--font-mono);
+    padding: 4px 10px;
+    border-radius: 12px;
+    border: 2px solid;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .arxiv-title {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.5;
+    margin-bottom: var(--space-sm);
+    transition: color var(--transition-fast);
+  }
+
+  .arxiv-title:hover {
+    color: var(--arxiv-color);
+  }
+
+  .arxiv-summary {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: var(--space-md);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .arxiv-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    color: var(--text-tertiary);
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--border-muted);
+  }
+
+  .arxiv-authors {
+    max-width: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+  }
+
+  .arxiv-divider {
+    color: var(--border-default);
+  }
+
+  .arxiv-date {
+    font-weight: 500;
+  }
+
+  .arxiv-pdf {
+    color: var(--accent-red);
+    font-weight: 600;
+    padding: 2px 8px;
+    background: rgba(239, 68, 68, 0.1);
+    border-radius: var(--radius-sm);
+    transition: all var(--transition-fast);
+  }
+
+  .arxiv-pdf:hover {
+    background: rgba(239, 68, 68, 0.2);
+    transform: translateY(-1px);
+  }
+
+  .arxiv-id {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+    margin-left: auto;
+  }
+
+  @media (max-width: 640px) {
+    .section-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-sm);
+      padding: var(--space-md);
+    }
+
+    .section-icon {
+      font-size: 1.75rem;
+    }
+
+    .section-title {
+      font-size: 1.25rem;
+    }
+
+    .arxiv-item {
+      padding: var(--space-md);
+    }
+
+    .arxiv-meta {
+      font-size: 0.8rem;
+      gap: var(--space-sm);
+    }
+
+    .arxiv-authors {
+      max-width: 200px;
+    }
+  }
+</style>

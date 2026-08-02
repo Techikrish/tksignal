@@ -1,0 +1,23 @@
+{
+  "name": "tksignal",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "tksignal — Your free tech signal aggregator. Trending HN, YC startups, GitHub repos, arXiv papers.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "fetch-data": "node scripts/fetch-data.mjs"
+  },
+  "dependencies": {
+    "astro": "^7.1.5",
+    "node-html-parser": "^9.0.1"
+  },
+  "devDependencies": {
+    "fast-xml-parser": "^5.2.0"
+  }
+}

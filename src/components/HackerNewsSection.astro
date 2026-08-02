@@ -1,0 +1,280 @@
+---
+import feedData from '../data/feed.json';
+import SummaryBlock from './SummaryBlock.astro';
+const stories = feedData.hackerNews || [];
+
+function timeAgo(dateStr) {
+  const now = new Date();
+  const date = new Date(dateStr);
+  const seconds = Math.floor((now - date) / 1000);
+  if (seconds < 60) return 'just now';
+  if (seconds < 3600) return `${Math.floor(seconds / 60)}m ago`;
+  if (seconds < 86400) return `${Math.floor(seconds / 3600)}h ago`;
+  return `${Math.floor(seconds / 86400)}d ago`;
+}
+
+function getDomain(url) {
+  try {
+    return new URL(url).hostname.replace('www.', '');
+  } catch {
+    return '';
+  }
+}
+---
+
+<section class="feed-section" id="hackernews">
+  <div class="section-header">
+    <div class="section-title-group">
+      <span class="section-icon">🔥</span>
+      <div>
+        <h2 class="section-title">Trending on Hacker News</h2>
+        <p class="section-subtitle">Top stories from the HN front page</p>
+      </div>
+    </div>
+    <span class="section-count">{stories.length} stories</span>
+  </div>
+
+  <div class="hn-list">
+    {stories.map((story) => (
+      <article class="hn-item">
+        <div class="hn-rank">{story.rank}</div>
+        <div class="hn-content">
+          <div class="hn-title-row">
+            <a href={story.url} class="hn-title" target="_blank" rel="noopener noreferrer">
+              {story.title}
+            </a>
+            {getDomain(story.url) && (
+              <span class="hn-domain">({getDomain(story.url)})</span>
+            )}
+          </div>
+          {story.description && (
+            <p class="hn-description">{story.description}</p>
+          )}
+          <SummaryBlock whyRead={story.aiWhyRead} summary={story.aiSummary} />
+          <div class="hn-meta">
+            <span class="hn-score">▲ {story.score}</span>
+            <span class="hn-divider">·</span>
+            <a href={story.hnUrl} class="hn-comments" target="_blank" rel="noopener noreferrer">
+              💬 {story.comments} comments
+            </a>
+            <span class="hn-divider">·</span>
+            <span class="hn-author">by {story.author}</span>
+            <span class="hn-divider">·</span>
+            <span class="hn-time">{timeAgo(story.time)}</span>
+          </div>
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+
+<style>
+  .feed-section {
+    margin-bottom: var(--space-3xl);
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-xl);
+    padding: var(--space-lg);
+    background: var(--hn-bg);
+    border-radius: var(--radius-lg);
+    border-left: 4px solid var(--hn-color);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .section-title-group {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+  }
+
+  .section-icon {
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: -0.02em;
+  }
+
+  .section-subtitle {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 2px;
+  }
+
+  .section-count {
+    font-size: 0.85rem;
+    color: var(--hn-color);
+    font-family: var(--font-mono);
+    font-weight: 700;
+    background: white;
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-md);
+    border: 2px solid var(--hn-border);
+  }
+
+  .hn-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .hn-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-md);
+    padding: var(--space-lg);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-base);
+    background: var(--bg-card);
+    border: 1px solid var(--border-default);
+    box-shadow: var(--shadow-xs);
+  }
+
+  .hn-item:hover {
+    background: var(--hn-bg);
+    border-color: var(--hn-border);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+
+  .hn-rank {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--hn-color);
+    background: var(--hn-bg);
+    border: 2px solid var(--hn-border);
+    border-radius: var(--radius-sm);
+  }
+
+  .hn-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .hn-title-row {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+  }
+
+  .hn-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.5;
+    transition: color var(--transition-fast);
+  }
+
+  .hn-title:hover {
+    color: var(--hn-color);
+  }
+
+  .hn-domain {
+    font-size: 0.8rem;
+    color: var(--text-tertiary);
+    flex-shrink: 0;
+    font-weight: 500;
+  }
+
+  .hn-description {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-top: var(--space-sm);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .hn-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+    margin-top: var(--space-md);
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+  }
+
+  .hn-score {
+    color: var(--hn-color);
+    font-weight: 700;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    padding: 2px 8px;
+    background: var(--hn-bg);
+    border-radius: var(--radius-sm);
+  }
+
+  .hn-divider {
+    color: var(--border-default);
+  }
+
+  .hn-comments {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: color var(--transition-fast);
+  }
+
+  .hn-comments:hover {
+    color: var(--hn-color);
+  }
+
+  .hn-author, .hn-time {
+    color: var(--text-tertiary);
+    font-size: 0.85rem;
+  }
+
+  @media (max-width: 640px) {
+    .section-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-sm);
+      padding: var(--space-md);
+    }
+
+    .section-icon {
+      font-size: 1.75rem;
+    }
+
+    .section-title {
+      font-size: 1.25rem;
+    }
+
+    .hn-item {
+      padding: var(--space-md);
+    }
+
+    .hn-rank {
+      width: 32px;
+      height: 32px;
+      font-size: 0.75rem;
+    }
+
+    .hn-title {
+      font-size: 1rem;
+    }
+
+    .hn-meta {
+      font-size: 0.8rem;
+    }
+  }
+</style>

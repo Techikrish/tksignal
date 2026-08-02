@@ -1,0 +1,319 @@
+---
+import feedData from '../data/feed.json';
+import SummaryBlock from './SummaryBlock.astro';
+const repos = feedData.github || [];
+
+const languageColors = {
+  JavaScript: '#f1e05a',
+  TypeScript: '#3178c6',
+  Python: '#3572A5',
+  Rust: '#dea584',
+  Go: '#00ADD8',
+  Java: '#b07219',
+  'C++': '#f34b7d',
+  C: '#555555',
+  Ruby: '#701516',
+  Swift: '#F05138',
+  Kotlin: '#A97BFF',
+  Dart: '#00B4AB',
+  Shell: '#89e051',
+  Lua: '#000080',
+  Zig: '#ec915c',
+  Jupyter: '#DA5B0B',
+  HTML: '#e34c26',
+  CSS: '#563d7c',
+  Vue: '#41b883',
+  Svelte: '#ff3e00',
+  Unknown: '#8b949e',
+};
+
+function formatStars(n) {
+  if (n >= 1000) return `${(n / 1000).toFixed(1)}k`;
+  return String(n);
+}
+
+function timeAgo(dateStr) {
+  const now = new Date();
+  const date = new Date(dateStr);
+  const days = Math.floor((now - date) / 86400000);
+  if (days === 0) return 'today';
+  if (days === 1) return 'yesterday';
+  return `${days}d ago`;
+}
+---
+
+<section class="feed-section" id="github">
+  <div class="section-header">
+    <div class="section-title-group">
+      <span class="section-icon">⭐</span>
+      <div>
+        <h2 class="section-title">Trending on GitHub</h2>
+        <p class="section-subtitle">What's hot on GitHub today, straight from the trending page</p>
+      </div>
+    </div>
+    <span class="section-count">{repos.length} repos</span>
+  </div>
+
+  <div class="gh-grid">
+    {repos.map((repo) => (
+      <a href={repo.url} class="gh-card" target="_blank" rel="noopener noreferrer">
+        <div class="gh-card-header">
+          <img src={repo.ownerAvatar} alt={repo.owner} class="gh-avatar" width="24" height="24" loading="lazy" />
+          <span class="gh-owner">{repo.owner}</span>
+          <span class="gh-slash">/</span>
+          <span class="gh-name">{repo.name}</span>
+        </div>
+        <p class="gh-description">{repo.description}</p>
+        <SummaryBlock whyRead={repo.aiWhyRead} summary={repo.aiSummary} />
+        {repo.topics && repo.topics.length > 0 && (
+          <div class="gh-topics">
+            {repo.topics.slice(0, 4).map(topic => (
+              <span class="gh-topic">{topic}</span>
+            ))}
+          </div>
+        )}
+        <div class="gh-card-footer">
+          <span class="gh-lang">
+            <span class="lang-dot" style={`background: ${languageColors[repo.language] || '#8b949e'}`}></span>
+            {repo.language}
+          </span>
+          <span class="gh-stars">⭐ {formatStars(repo.stars)}</span>
+          <span class="gh-forks">🍴 {repo.forks}</span>
+          {repo.starsToday ? (
+            <span class="gh-today">🔥 {formatStars(repo.starsToday)} today</span>
+          ) : (
+            <span class="gh-created">Created {timeAgo(repo.createdAt)}</span>
+          )}
+        </div>
+      </a>
+    ))}
+  </div>
+</section>
+
+<style>
+  .feed-section {
+    margin-bottom: var(--space-3xl);
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-xl);
+    padding: var(--space-lg);
+    background: var(--github-bg);
+    border-radius: var(--radius-lg);
+    border-left: 4px solid var(--github-color);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .section-title-group {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+  }
+
+  .section-icon {
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: -0.02em;
+  }
+
+  .section-subtitle {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 2px;
+  }
+
+  .section-count {
+    font-size: 0.85rem;
+    color: var(--github-color);
+    font-family: var(--font-mono);
+    font-weight: 700;
+    background: white;
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-md);
+    border: 2px solid var(--github-border);
+  }
+
+  .gh-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: var(--space-md);
+  }
+
+  .gh-card {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-lg);
+    background: var(--bg-card);
+    border: 1px solid var(--border-default);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-base);
+    color: inherit;
+    box-shadow: var(--shadow-xs);
+  }
+
+  .gh-card:hover {
+    border-color: var(--github-border);
+    background: var(--github-bg);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+
+  .gh-card-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-md);
+    font-size: 0.95rem;
+    min-width: 0;
+  }
+
+  .gh-avatar {
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 2px solid var(--border-default);
+  }
+
+  .gh-owner {
+    color: var(--text-secondary);
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .gh-slash {
+    color: var(--text-tertiary);
+    flex-shrink: 0;
+  }
+
+  .gh-name {
+    color: var(--github-color);
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .gh-description {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    flex: 1;
+    margin-bottom: var(--space-md);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .gh-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: var(--space-md);
+  }
+
+  .gh-topic {
+    font-size: 0.7rem;
+    color: var(--text-link);
+    background: var(--accent-blue-light);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-family: var(--font-mono);
+    font-weight: 600;
+    border: 1px solid var(--border-accent);
+  }
+
+  .gh-card-footer {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    color: var(--text-tertiary);
+    padding-top: var(--space-md);
+    border-top: 1px solid var(--border-muted);
+  }
+
+  .gh-lang {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+  }
+
+  .lang-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .gh-stars {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--github-color);
+    padding: 2px 8px;
+    background: var(--github-bg);
+    border-radius: var(--radius-sm);
+  }
+
+  .gh-forks {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .gh-created {
+    margin-left: auto;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .gh-today {
+    margin-left: auto;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--github-color);
+    background: var(--github-bg);
+    padding: 2px 8px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--github-border);
+  }
+
+  @media (max-width: 640px) {
+    .section-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-sm);
+      padding: var(--space-md);
+    }
+
+    .section-icon {
+      font-size: 1.75rem;
+    }
+
+    .section-title {
+      font-size: 1.25rem;
+    }
+
+    .gh-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .gh-card {
+      padding: var(--space-md);
+    }
+  }
+</style>
