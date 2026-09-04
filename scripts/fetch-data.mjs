@@ -28,7 +28,7 @@ const MAX_ITEMS = 30;
 
 // ── LLM Summaries (Google Gemini, free tier) ──
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY || '';
-const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-3.6-flash';
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-3.5-flash-lite';
 // Free tier is ~10 RPM; pace requests to stay comfortably under.
 const GEMINI_RATE_LIMIT_MS = 6500;
 

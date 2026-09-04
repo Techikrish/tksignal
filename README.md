@@ -50,7 +50,7 @@ npm run preview         # preview the built site
 | Env var | Required? | Default | Purpose |
 | :-- | :-- | :-- | :-- |
 | `GEMINI_API_KEY` | No | — | Enables AI summaries (free key: https://aistudio.google.com/apikey) |
-| `GEMINI_MODEL` | No | `gemini-3.6-flash` | Gemini model to use |
+| `GEMINI_MODEL` | No | `gemini-3.5-flash-lite` | Gemini model to use |
 | `GEMINI_RATE_LIMIT_MS` | No | `6500` | Delay between Gemini calls (stays under free-tier RPM) |
 | `GITHUB_TOKEN` | No (auto in CI) | — | Higher GitHub API limits for README fetches |
 
