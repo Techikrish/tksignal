@@ -28,7 +28,7 @@ const MAX_ITEMS = 30;
 
 // ── LLM Summaries (Google Gemini, free tier) ──
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY || '';
-const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-3.6-flash';
 // Free tier is ~10 RPM; pace requests to stay comfortably under.
 const GEMINI_RATE_LIMIT_MS = 6500;
 
@@ -447,6 +447,13 @@ async function callGemini(prompt) {
         const body = (await res.text()).slice(0, 300);
         if (/API key|API_KEY/.test(body)) {
           const err = new Error(`Gemini auth failed (HTTP ${res.status}). Check GEMINI_API_KEY.`);
+          err.fatal = true;
+          throw err;
+        }
+        if (res.status === 404 || /not found|not supported|no longer available|invalid model/i.test(body)) {
+          const err = new Error(
+            `Gemini model "${GEMINI_MODEL}" not available (HTTP ${res.status}: ${body}). Set GEMINI_MODEL to a supported model.`
+          );
           err.fatal = true;
           throw err;
         }
