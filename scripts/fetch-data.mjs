@@ -29,6 +29,12 @@ const MAX_ITEMS = 30;
 // ── LLM Summaries (Google Gemini, free tier) ──
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY || '';
 const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-3.5-flash-lite';
+
+// Circuit breaker: stop summarizing early after this many consecutive
+// per-item failures (dead model / quota exhausted). The run still writes
+// feed.json with whatever summaries succeeded (possibly zero).
+const SUMMARY_MAX_CONSECUTIVE_ERRORS = 5;
+
 // Free tier is ~10 RPM; pace requests to stay comfortably under.
 const GEMINI_RATE_LIMIT_MS = 6500;
 
@@ -465,7 +471,7 @@ async function callGemini(prompt) {
       if (err.fatal) throw err;
       lastErr = err;
       if (String(err.message).startsWith('Gemini HTTP 4')) break;
-      await sleep((attempt + 1) * 5000);
+      if (attempt < 3) await sleep((attempt + 1) * 5000);
     }
   }
   throw lastErr || new Error('Gemini call failed');
@@ -577,6 +583,9 @@ async function summarizeAll(results) {
   let summarized = 0;
   let errors = 0;
   let skipped = 0;
+  let consecutiveErrors = 0;
+  let stoppedEarly = false;
+  let stopReason = '';
   for (let i = 0; i < tasks.length; i++) {
     const { item, source, title, build } = tasks[i];
     try {
@@ -589,16 +598,25 @@ async function summarizeAll(results) {
         item.aiWhyRead = whyRead;
         item.aiSummary = summary;
         summarized++;
+        consecutiveErrors = 0;
         console.log(`  ✅ [${i + 1}/${tasks.length}] ${source}: ${title}`);
       }
     } catch (err) {
       if (err.fatal) throw err;
       errors++;
+      consecutiveErrors++;
       console.warn(`  ⚠️  [${i + 1}/${tasks.length}] ${source}: ${title} — ${err.message}`);
+      if (consecutiveErrors >= SUMMARY_MAX_CONSECUTIVE_ERRORS) {
+        stoppedEarly = true;
+        stopReason = err.message;
+        console.warn(`\n  🛑 Stopping AI summaries early after ${consecutiveErrors} consecutive failures (${err.message}).`);
+        console.warn(`  🛑 Writing feed with ${summarized} summaries — the rest will show without AI summaries.`);
+        break;
+      }
     }
     await sleep(GEMINI_RATE_LIMIT_MS);
   }
-  return { total: tasks.length, summarized, errors, skipped };
+  return { total: tasks.length, summarized, errors, skipped, stoppedEarly, stopReason };
 }
 
 // ── Main ──

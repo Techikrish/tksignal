@@ -30,7 +30,7 @@ Summaries render in a shared `src/components/SummaryBlock.astro` card inside eac
 scripts/fetch-data.mjs  →  src/data/feed.json  →  Astro static build  →  GitHub Pages
 ```
 
-`fetch-data.mjs` pulls all four sources, fetches article text / GitHub READMEs for context, calls Gemini (~6.5s pacing between calls), and writes everything to `feed.json`, which the Astro components render at build time. A GitHub Actions workflow re-runs this **every 12 hours** (plus on every push to `main`) so the site stays fresh.
+`fetch-data.mjs` pulls all four sources, fetches article text / GitHub READMEs for context, calls Gemini (~6.5s pacing between calls), and writes everything to `feed.json`, which the Astro components render at build time. A GitHub Actions workflow re-runs this **every 24 hours** (plus on every push to `main`) so the site stays fresh.
 
 ## Run it locally
 
