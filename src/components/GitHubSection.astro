@@ -54,15 +54,15 @@ function timeAgo(dateStr) {
     <span class="section-count">{repos.length} repos</span>
   </div>
 
-  <div class="gh-grid">
+  <div class="gh-grid" id="github-list">
     {repos.map((repo) => (
-      <a href={repo.url} class="gh-card" target="_blank" rel="noopener noreferrer">
-        <div class="gh-card-header">
+      <article class="gh-card">
+        <a href={repo.url} class="gh-card-header" target="_blank" rel="noopener noreferrer">
           <img src={repo.ownerAvatar} alt={repo.owner} class="gh-avatar" width="24" height="24" loading="lazy" />
           <span class="gh-owner">{repo.owner}</span>
           <span class="gh-slash">/</span>
           <span class="gh-name">{repo.name}</span>
-        </div>
+        </a>
         <p class="gh-description">{repo.description}</p>
         <SummaryBlock whyRead={repo.aiWhyRead} summary={repo.aiSummary} />
         {repo.topics && repo.topics.length > 0 && (
@@ -85,9 +85,14 @@ function timeAgo(dateStr) {
             <span class="gh-created">Created {timeAgo(repo.createdAt)}</span>
           )}
         </div>
-      </a>
+      </article>
     ))}
   </div>
+  {repos.length > 6 && (
+    <button class="show-more" type="button" aria-controls="github-list" aria-expanded="false" data-label-all={`Show all ${repos.length} repositories`}>
+      Show all {repos.length} repositories
+    </button>
+  )}
 </section>
 
 <style>

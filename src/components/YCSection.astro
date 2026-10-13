@@ -27,13 +27,13 @@ function timeAgo(dateStr) {
     <span class="section-count">{startups.length} launches</span>
   </div>
 
-  <div class="yc-grid">
+  <div class="yc-grid" id="yc-list">
     {startups.map((startup) => (
-      <a href={startup.url} class="yc-card" target="_blank" rel="noopener noreferrer">
+      <article class="yc-card">
         <div class="yc-card-top">
           <div class="yc-name-group">
             <span class="yc-badge">{startup.isShowHN ? 'Show HN' : 'Launch HN'}</span>
-            <h3 class="yc-name">{startup.name}</h3>
+            <h3 class="yc-name"><a href={startup.url} target="_blank" rel="noopener noreferrer">{startup.name}</a></h3>
           </div>
           {startup.tagline && (
             <p class="yc-tagline">{startup.tagline}</p>
@@ -45,9 +45,14 @@ function timeAgo(dateStr) {
           <span class="yc-stat">💬 {startup.comments}</span>
           <span class="yc-time">{timeAgo(startup.launchDate)}</span>
         </div>
-      </a>
+      </article>
     ))}
   </div>
+  {startups.length > 6 && (
+    <button class="show-more" type="button" aria-controls="yc-list" aria-expanded="false" data-label-all={`Show all ${startups.length} launches`}>
+      Show all {startups.length} launches
+    </button>
+  )}
 </section>
 
 <style>

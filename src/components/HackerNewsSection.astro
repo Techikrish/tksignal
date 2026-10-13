@@ -34,7 +34,7 @@ function getDomain(url) {
     <span class="section-count">{stories.length} stories</span>
   </div>
 
-  <div class="hn-list">
+  <div class="hn-list" id="hn-list">
     {stories.map((story) => (
       <article class="hn-item">
         <div class="hn-rank">{story.rank}</div>
@@ -66,6 +66,11 @@ function getDomain(url) {
       </article>
     ))}
   </div>
+  {stories.length > 6 && (
+    <button class="show-more" type="button" aria-controls="hn-list" aria-expanded="false" data-label-all={`Show all ${stories.length} stories`}>
+      Show all {stories.length} stories
+    </button>
+  )}
 </section>
 
 <style>

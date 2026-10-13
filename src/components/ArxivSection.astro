@@ -53,14 +53,14 @@ function timeAgo(dateStr) {
     <span class="section-count">{papers.length} papers</span>
   </div>
 
-  <div class="arxiv-list">
+  <div class="arxiv-list" id="arxiv-list">
     {papers.map((paper) => (
       <article class="arxiv-item">
         <div class="arxiv-categories">
           {paper.categories.slice(0, 3).map((cat) => (
             <span 
               class="arxiv-cat"
-              style={`color: ${categoryColors[cat] || 'var(--text-secondary)'}; border-color: ${categoryColors[cat] || 'var(--border-default)'}; background: ${categoryColors[cat] || 'var(--text-secondary)'}10`}
+              style={`--category-color: ${categoryColors[cat] || 'var(--text-secondary)'}`}
             >
               {categoryLabels[cat] || cat}
             </span>
@@ -87,6 +87,11 @@ function timeAgo(dateStr) {
       </article>
     ))}
   </div>
+  {papers.length > 6 && (
+    <button class="show-more" type="button" aria-controls="arxiv-list" aria-expanded="false" data-label-all={`Show all ${papers.length} papers`}>
+      Show all {papers.length} papers
+    </button>
+  )}
 </section>
 
 <style>

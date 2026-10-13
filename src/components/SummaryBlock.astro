@@ -11,15 +11,17 @@ const hasContent = hasWhyRead || hasSummary;
 ---
 
 {hasContent && (
-  <div class="summary-block">
-    <span class="summary-label">✨ AI Summary</span>
-    {hasWhyRead && (
-      <p class="summary-whyread"><strong>Why read:</strong> {whyRead}</p>
-    )}
-    {hasSummary && (
-      <p class="summary-text">{summary}</p>
-    )}
-  </div>
+  <details class="summary-block">
+    <summary class="summary-label">✨ AI summary</summary>
+    <div class="summary-content">
+      {hasWhyRead && (
+        <p class="summary-whyread"><strong>Why read:</strong> {whyRead}</p>
+      )}
+      {hasSummary && (
+        <p class="summary-text">{summary}</p>
+      )}
+    </div>
+  </details>
 )}
 
 <style>
@@ -34,7 +36,10 @@ const hasContent = hasWhyRead || hasSummary;
   }
 
   .summary-label {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
     font-size: 0.7rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -45,6 +50,24 @@ const hasContent = hasWhyRead || hasSummary;
     border-radius: 12px;
     border: 1px solid var(--accent-purple-light);
     margin-bottom: var(--space-sm);
+  }
+
+  .summary-label::-webkit-details-marker {
+    display: none;
+  }
+
+  .summary-label::after {
+    content: '+';
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .summary-block[open] .summary-label::after {
+    content: '−';
+  }
+
+  .summary-content {
+    padding-top: var(--space-xs);
   }
 
   .summary-whyread {
