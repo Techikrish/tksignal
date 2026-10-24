@@ -14,7 +14,7 @@
     "fetch-data": "node scripts/fetch-data.mjs"
   },
   "dependencies": {
-    "astro": "^7.1.5",
+    "astro": "^7.4.2",
     "node-html-parser": "^9.0.1"
   },
   "devDependencies": {
